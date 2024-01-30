@@ -1,8 +1,8 @@
 export const CartWidget = () => {
     return (
-        <div>
+        <>
             <div className="contenedor_del_icono_carrito_y_del_contador_de_productos">
-                <img className="icono_carrito" id="iconoCarritoId" src="./img/carritoDeCompra.png"
+                <img className="icono_carrito" id="iconoCarritoId" src="./src/assets/carritoDeCompra.png"
                     alt="icono_del_carrito de compra" />
                 <p className="contador_de_productos" id="contadorDeProductosId">0</p>
             </div>
@@ -11,8 +11,7 @@ export const CartWidget = () => {
                     <h3 className="titulo_carrito_de_productos">Carrito de productos</h3>
                     <button className="btn_cerrar_carrito" id="btnCerrarCarritoId">X</button>
                 </div>
-                <div className="contenedor_de_items_de_carrito_de_productos"
-                    id="contenedorDeItemsDeCarritoDeProductosId">
+                <div className="contenedor_de_items_de_carrito_de_productos" id="contenedorDeItemsDeCarritoDeProductosId">
                     {/*ACA SE MUESTRAN LOS ITEMS AGREGADOS AL CARRITO*/}
                 </div>
                 <div className="contenedor_de_totales_a_pagar_y_del_boton_iniciar_pago">
@@ -23,6 +22,6 @@ export const CartWidget = () => {
                     <a className="btn_iniciar_pago" href="./pages/checkout.html" id="btnIniciarPagoId">Iniciar pago</a>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
