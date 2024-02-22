@@ -1,0 +1,361 @@
+.checkout {
+    padding: 20px;
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        margin-bottom: 10px;
+        text-shadow: -2px -2px 3px red;
+        color: black;
+    }
+
+    .contenedor_de_datos_del_cliente_y_de_informacion_de_los_productos {
+        display: flex;
+        justify-content: space-around;
+
+        .datos_del_cliente {
+            width: 700px;
+            height: 470px;
+            border: 2px solid red;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 3px black;
+            background-color: #0f0f0f;
+
+            h2 {
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                font-size: 30px;
+                font-weight: 900;
+            }
+
+            form {
+                .nombre_del_cliente {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: 100;
+                        font-size: 16px;
+                    }
+
+                    input {}
+                }
+
+                .apellido_del_cliente {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 5px;
+
+                    label {
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: 100;
+                        font-size: 16px;
+                    }
+
+                    input {}
+                }
+
+                .email_del_cliente {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 5px;
+
+                    label {
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: 100;
+                        font-size: 16px;
+                    }
+
+                    input {}
+                }
+
+                .contenedor_de_telefono_y_rut_del_cliente {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 15px;
+
+                    .telefono_del_cliente {
+                        label {
+                            color: white;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-weight: 100;
+                            font-size: 16px;
+                        }
+
+                        input {}
+                    }
+
+                    .rut_del_cliente {
+                        label {
+                            color: white;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-weight: 100;
+                            font-size: 16px;
+                        }
+
+                        input {}
+                    }
+                }
+
+                .contenedor_de_region_y_comuna {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 15px;
+
+                    .region {
+                        label {
+                            color: white;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-weight: 100;
+                            font-size: 16px;
+                        }
+
+                        select {}
+                    }
+
+                    .comuna {
+                        label {
+                            color: white;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-weight: 100;
+                            font-size: 16px;
+                        }
+
+                        select {}
+                    }
+                }
+
+                .contenedor_de_direccion_y_numero {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 5px;
+
+                    .direccion {
+                        display: flex;
+                        flex-direction: column;
+                        width: 80%;
+
+                        label {
+                            color: white;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-weight: 100;
+                            font-size: 16px;
+                        }
+
+                        input {}
+
+                    }
+
+                    .numero_de_casa {
+                        display: flex;
+                        flex-direction: column;
+                        width: 15%;
+
+                        label {
+                            color: white;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font-weight: 100;
+                            font-size: 16px;
+                        }
+
+                        input {}
+                    }
+                }
+
+                .contenedor_de_aceptar_terminos_y_condiciones {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                    input {}
+
+                    label {
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: 100;
+                        font-size: 14px;
+                    }
+                }
+
+                .btn_continuar {
+                    display: block;
+                    background-color: red;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 600;
+                    font-size: 16px;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-radius: 10px;
+                    border: 2px solid red;
+                    margin: auto;
+                    width: 100px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .informacion_de_los_productos {
+            width: 500px;
+            border: 2px solid red;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 3px black;
+            background-color: #0f0f0f;
+
+
+            h2 {
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                font-size: 30px;
+                font-weight: 900;
+            }
+
+            .items_del_carrito_de_compra {
+                .item {
+                    border-bottom: 2px solid red;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+
+                    .nombre_del_producto {
+                        margin: 0;
+                        line-height: normal;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        color: white;
+                        text-align: justify;
+                    }
+
+                    .contenedor_de_la_imagen_y_de_la_informacion_del_producto {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .contenedor_de_la_imagen_del_producto_y_del_boton_eliminar_producto {
+                            .imagen_del_producto {
+                                width: 115px;
+                                padding: 6px 0 6px 0;
+
+                                img {
+                                    width: 115px;
+                                }
+                            }
+
+                            .eliminar_producto_checkout {
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                font-size: 12px;
+                                color: white;
+                                background-color: red;
+                                padding: 2px;
+                                border-radius: 10px;
+                            }
+                        }
+
+                        .informacion_del_producto {
+                            margin: 0;
+                            padding: 0px 0px 0px 5px;
+
+                            .cantidad {
+                                margin: 0;
+                                margin-top: 5px;
+                                line-height: normal;
+                                font-size: 15px;
+                                font-weight: 600;
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: white;
+                                text-align: right;
+                            }
+
+                            .precio_normal {
+                                margin: 0;
+                                margin-top: 5px;
+                                line-height: normal;
+                                font-size: 15px;
+                                font-weight: 600;
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: gray;
+                                text-align: right;
+                            }
+
+                            .precio_con_transferencia {
+                                margin: 0;
+                                margin-top: 5px;
+                                line-height: normal;
+                                font-size: 15px;
+                                font-weight: 600;
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: white;
+                                text-align: left;
+                            }
+
+                            .precio_con_otros_medios_de_pago {
+                                margin: 0;
+                                margin-top: 5px;
+                                line-height: normal;
+                                font-size: 15px;
+                                font-weight: 600;
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                color: white;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pago_con_transferencia {
+                margin: 0;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                line-height: normal;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                text-align: left;
+
+                span {}
+            }
+
+            .Otros_medios_de_pago {
+                margin: 0;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                line-height: normal;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                text-align: left;
+
+                span {}
+            }
+
+            .costo_de_envio {
+                margin: 0;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+
+                span {}
+            }
+
+            .mensaje_costo_de_envio {
+                margin: 0;
+                line-height: normal;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                text-align: left;
+            }
+        }
+    }
+}

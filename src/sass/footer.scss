@@ -1,0 +1,85 @@
+footer {
+    background-color: #0f0f0f;
+    padding-top: 10px;
+
+    .footer_contenedor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer_zerolag {
+            margin-left: 15px;
+
+            h2 {
+                color: red;
+                font-size: 40px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 900;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                font-size: 12px;
+                margin-bottom: 0;
+            }
+        }
+
+        .medios_de_pago {
+            h3 {
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+                font-weight: 100;
+                margin-left: 2px;
+                margin-bottom: 0;
+            }
+
+            .imagenes_medios_de_pago {
+                display: flex;
+                flex-wrap: wrap;
+
+                img {
+                    margin: 2px 4px 2px 4px;
+                }
+            }
+        }
+
+        .redes_sociales {
+            margin-right: 15px;
+            margin-top: 15px;
+
+            h3 {
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+                margin-bottom: 0;
+                font-weight: 100;
+            }
+
+            a {
+                img {
+                    height: 30px;
+                    width: 30px;
+                    margin: 2px 2px 2px 2px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .derechos_de_autor {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background-color: black;
+
+        p {
+            color: white;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+    }
+}

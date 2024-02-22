@@ -2,7 +2,7 @@ export const CartWidget = () => {
     return (
         <>
             <div className="contenedor_del_icono_carrito_y_del_contador_de_productos">
-                <img className="icono_carrito" id="iconoCarritoId" src="./src/assets/carritoDeCompra.png"
+                <img className="icono_carrito" id="iconoCarritoId" src="../img/carritoDeCompra.png"
                     alt="icono_del_carrito de compra" />
                 <p className="contador_de_productos" id="contadorDeProductosId">0</p>
             </div>

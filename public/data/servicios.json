@@ -1,0 +1,18 @@
+[
+    {
+        "idDelServicio": 1,
+        "nombreDelServicio": "SERVICIO DE REPARACIÓN",
+        "imagenDelServicioPages": "../img/reparacion2redimensionada.jpg",
+        "imagenDelServicioIndex": "./img/reparacion2redimensionada.jpg",
+        "altDeLaImagen": "imagen de un profesional inspeccionando un Notebook",
+        "descripcionDelServicio": "Nuestro servicio de reparación es sinónimo de confiabilidad y excelencia. Nuestro equipo de técnicos altamente capacitados está listo para abordar cualquier problema tecnológico que puedas enfrentar. Desde reparaciones de dispositivos hasta soluciones de software, ofrecemos un servicio rápido y eficiente que te permite volver a disfrutar de tus dispositivos tecnológicos sin interrupciones. Tu tranquilidad y la funcionalidad de tus dispositivos son nuestra prioridad número uno. Confía en ZeroLag para mantener tu tecnología en perfecto estado."
+    },
+    {
+        "idDelServicio": 2,
+        "nombreDelServicio": "SERVICIO DE MANTENCIÓN",
+        "imagenDelServicioPages": "../img/mantenciónredimensionada.jpg",
+        "imagenDelServicioIndex": "./img/mantenciónredimensionada.jpg",
+        "altDeLaImagen": "imagen de un Notebook con un estetoscopio sobre el teclado",
+        "descripcionDelServicio": "Nuestro servicio de mantenimiento está diseñado para asegurar que tus dispositivos tecnológicos funcionen de manera óptima y sin problemas. Nuestro equipo de expertos realiza inspecciones regulares, actualizaciones y ajustes precisos para mantener tus dispositivos en el mejor estado posible. Nos encargamos de todos los detalles para que tú puedas disfrutar de la tecnología sin preocupaciones. Con ZeroLag, tu inversión en tecnología estará protegida y lista para brindarte un rendimiento excepcional a largo plazo."
+    }
+]

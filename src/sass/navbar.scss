@@ -1,457 +1,497 @@
 header {
-    background-color: #0f0f0f;
-  
-    .navbar {
-      padding: 0px 0px 10px 0px;
-      line-height: normal;
-  
-      .header_navbar_contenedor {
+  background-color: #0f0f0f;
+
+  .navbar {
+    padding: 0px 0px 10px 0px;
+    line-height: normal;
+
+    .header_navbar_contenedor {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      .header_contenedor {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
-  
-        .header_contenedor {
-          display: flex;
-  
-          .boton_navbar_y_logo_navbar_contenedor {
-            .boton_navbar {
-              background-color: red;
-              margin: 0px 10px 0px 0px;
-  
-              span {}
-            }
-  
-            .logo_navbar {
-              margin: 0;
-              padding: 0;
-              font-family: "Courier New", Courier, monospace;
-              font-size: 60px;
-              font-weight: 900;
+
+        .boton_navbar_y_logo_navbar_contenedor {
+          .boton_navbar {
+            background-color: red;
+            margin: 0px 10px 0px 0px;
+
+            span {}
+          }
+
+          .logo_navbar {
+            margin: 0;
+            padding: 0;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 60px;
+            font-weight: 900;
+            color: red;
+            transition-duration: 0.5s;
+
+            &:hover {
               color: red;
-              transition-duration: 0.5s;
-  
-              &:hover {
-                color: red;
-                text-shadow: -2px -2px 3px red;
+              text-shadow: -2px -2px 3px red;
+            }
+
+            span {
+              color: white;
+            }
+          }
+        }
+
+        .barra_de_busqueda {
+          margin: 0;
+          padding: 0;
+          padding-left: 15px;
+          padding-right: 15px;
+
+          .input_buscar {
+            border: solid 2px red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 5px;
+            transition-duration: 0.5s;
+
+            &:hover {
+              border: 3px solid rgb(0, 194, 0);
+            }
+          }
+
+          .boton_buscar {
+            padding: 5px;
+            margin-left: 5px;
+            border-radius: 10px;
+            border: solid 2px red;
+            background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            transition-duration: 0.5s;
+
+            &:hover {
+              border: 2px solid rgb(7, 80, 0);
+              background-color: rgb(0, 194, 0);
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: black;
+              font-size: 16px;
+              font-weight: 600;
+            }
+          }
+        }
+
+        .icono_login_user {
+          color: red;
+          font-size: 35px;
+          margin: 10px 5px 0px 5px;
+
+        }
+
+        .contenedor_del_icono_carrito_y_del_contador_de_productos {
+          margin: 18px 0px 0px 5px;
+
+          .icono_carrito {
+            width: 35px;
+            margin-right: 15px;
+            position: relative;
+          }
+
+          .contador_de_productos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            margin: 0;
+            background-color: white;
+            padding: 2px;
+            font-size: 14px;
+            font-weight: bold;
+            color: red;
+            border-radius: 100%;
+            top: 15px;
+            right: 20px;
+          }
+        }
+
+        .carrito_de_productos {
+          position: absolute;
+          top: 60px;
+          right: 10px;
+          background-color: #fff;
+          padding: 0 10px;
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.493);
+          display: none;
+          width: 500px;
+          z-index: 100;
+          border: 2px solid red;
+          border-radius: 10px;
+          line-height: normal;
+
+          .contenedor_btn_cerrar_carrito_y_titulo_carrito_de_productos {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid red;
+            padding: 5px 0;
+
+            .titulo_carrito_de_productos {
+              margin: 0;
+              text-align: center;
+              margin: 0;
+              line-height: normal;
+              font-size: 20px;
+              font-weight: 600;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: #0f0f0f;
+            }
+
+            .btn_cerrar_carrito {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: white;
+              cursor: pointer;
+              background-color: red;
+              border-radius: 100%;
+              padding: 4px;
+              width: 20px;
+              height: 20px;
+            }
+          }
+
+          .contenedor_de_items_de_carrito_de_productos {
+
+            .item {
+              padding: 5px 0px 5px 0px;
+              border-bottom: 2px solid red;
+
+              .nombre_del_producto {
+                margin: 0;
+                line-height: normal;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #0f0f0f;
+                text-align: justify;
               }
-  
-              span {
-                color: white;
+
+              .contenedor_de_la_imagen_y_de_la_informacion_del_producto {
+                display: flex;
+                justify-content: space-between;
+
+                .contenedor_de_la_imagen_del_producto_y_del_boton_eliminar_producto {
+                  .imagen_del_producto {
+                    width: 115px;
+
+                    img {
+                      width: 115px;
+                    }
+                  }
+
+                  .eliminar_producto {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    color: white;
+                    background-color: red;
+                    padding: 2px;
+                    border-radius: 10px;
+                  }
+                }
+
+                .informacion_del_producto {
+                  margin: 0;
+                  padding: 0px 0px 0px 5px;
+
+                  .cantidad {
+                    margin: 0;
+                    margin-top: 5px;
+                    line-height: normal;
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: #0f0f0f;
+                    text-align: right;
+                  }
+
+                  .precio_normal {
+                    margin: 0;
+                    margin-top: 5px;
+                    line-height: normal;
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: gray;
+                    text-align: right;
+                  }
+
+                  .precio_con_transferencia {
+                    margin: 0;
+                    margin-top: 5px;
+                    line-height: normal;
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: #0f0f0f;
+                    text-align: left;
+                  }
+
+                  .precio_con_otros_medios_de_pago {
+                    margin: 0;
+                    margin-top: 5px;
+                    line-height: normal;
+                    font-size: 15px;
+                    font-weight: 600;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: #0f0f0f;
+                    text-align: left;
+                  }
+                }
               }
             }
           }
-  
-          .barra_de_busqueda {
-            margin: 0;
-            padding: 0;
-            padding-left: 15px;
-            padding-right: 15px;
-  
-            .input_buscar {
-              border: solid 2px red;
-              font-family: Verdana, Geneva, Tahoma, sans-serif;
-              margin: 0;
-              padding: 5px;
-              transition-duration: 0.5s;
-  
-              &:hover {
-                border: 3px solid rgb(0, 194, 0);
+
+          .contenedor_de_totales_a_pagar_y_del_boton_iniciar_pago {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .contenedor_de_total_de_pago_con_transferencia_y_de_total_con_otros_medios_de_pago {
+              .pago_con_transferencia {
+                margin: 0;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                line-height: normal;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #0f0f0f;
+                text-align: left;
+              }
+
+              .Otros_medios_de_pago {
+                margin: 0;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                line-height: normal;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #0f0f0f;
+                text-align: left;
               }
             }
-  
-            .boton_buscar {
-              padding: 5px;
-              margin-left: 5px;
+
+            .btn_iniciar_pago {
+              text-decoration: none;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 15px;
+              font-weight: 600;
+              color: white;
+              background-color: red;
+              padding: 4px;
               border-radius: 10px;
-              border: solid 2px red;
-              background-color: black;
+              margin-right: 50px;
+              line-height: normal;
+              height: 2em;
+            }
+          }
+        }
+      }
+
+      .navbar_contenedor {
+        ul {
+          list-style: none;
+          padding: 0;
+
+          .li_inicio {
+            .a_inicio {
+              text-decoration: none;
               font-family: Verdana, Geneva, Tahoma, sans-serif;
               color: white;
               font-size: 16px;
               font-weight: 600;
+              padding: 0px 60px 0px 60px;
+              background-color: black;
+              border: solid 2px red;
+              border-radius: 10px;
+              text-align: center;
               transition-duration: 0.5s;
-  
+
               &:hover {
-                border: 2px solid rgb(7, 80, 0);
-                background-color: rgb(0, 194, 0);
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 color: black;
                 font-size: 16px;
                 font-weight: 600;
+                background-color: rgb(0, 194, 0);
+                border: 2px solid rgb(7, 80, 0);
               }
             }
-          }
-          
-          .icono_login_user{
-            color: red;
-            font-size: 35px;
-            margin: 10px 5px 0px 5px;
-            
           }
 
-          .contenedor_del_icono_carrito_y_del_contador_de_productos {
-            margin: 18px 0px 0px 5px;
-            
-            .icono_carrito {
-              width: 35px;
-              margin-right: 15px;
-              position: relative;
+          .li_nosotros {
+            .a_nosotros {
+              text-decoration: none;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: white;
+              font-size: 16px;
+              font-weight: 600;
+              padding: 0px 60px 0px 60px;
+              background-color: black;
+              border: solid 2px red;
+              border-radius: 10px;
+              text-align: center;
+              transition-duration: 0.5s;
+
+              &:hover {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: black;
+                font-size: 16px;
+                font-weight: 600;
+                background-color: rgb(0, 194, 0);
+                border: 2px solid rgb(7, 80, 0);
+              }
             }
-  
-            .contador_de_productos {
-              display: flex;
-              align-items: center;
-              justify-content: center;
+          }
+
+          .li_productos {
+            position: relative;
+
+            &:hover ul{
+              display: block;
+            }
+            .button_productos {
+              text-decoration: none;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: white;
+              font-size: 16px;
+              font-weight: 600;
+              padding: 0px 60px 0px 60px;
+              background-color: black;
+              border: solid 2px red;
+              border-radius: 10px;
+              text-align: center;
+              transition-duration: 0.5s;
+
+              &:hover {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: black;
+                font-size: 16px;
+                font-weight: 600;
+                background-color: rgb(0, 194, 0);
+                border: 2px solid rgb(7, 80, 0);
+              }
+            }
+
+            .submenu_de_productos {
+              display: none;
               position: absolute;
-              width: 20px;
-              height: 20px;
-              margin: 0;
-              background-color: white;
-              padding: 2px;
-              font-size: 14px;
-              font-weight: bold;
-              color: red;
-              border-radius: 100%;
-              top: 15px;
-              right: 20px;
-            }
-          }
-  
-          .carrito_de_productos {
-            position: absolute;
-            top: 60px;
-            right: 10px;
-            background-color: #fff;
-            padding: 0 10px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.493);
-            display: none;
-            width: 500px;
-            z-index: 100;
-            border: 2px solid red;
-            border-radius: 10px;
-            line-height: normal;
-  
-            .contenedor_btn_cerrar_carrito_y_titulo_carrito_de_productos {
-              display: flex;
-              justify-content: space-between;
-              border-bottom: 2px solid red;
-              padding: 5px 0;
-  
-              .titulo_carrito_de_productos {
-                margin: 0;
-                text-align: center;
-                margin: 0;
-                line-height: normal;
-                font-size: 20px;
-                font-weight: 600;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: #0f0f0f;
+              top: 100%;
+              width: 100%;
+
+              &:hover{
+                display: block;
               }
-  
-              .btn_cerrar_carrito {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color: white;
-                cursor: pointer;
-                background-color: red;
-                border-radius: 100%;
-                padding: 4px;
-                width: 20px;
-                height: 20px;
-              }
-            }
-  
-            .contenedor_de_items_de_carrito_de_productos {
-  
-              .item {
-                padding: 5px 0px 5px 0px;
-                border-bottom: 2px solid red;
-  
-                .nombre_del_producto {
-                  margin: 0;
-                  line-height: normal;
-                  font-size: 14px;
-                  font-weight: 400;
+              li {
+                button {
+                  width: 100%;
                   font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: #0f0f0f;
-                  text-align: justify;
-                }
-  
-                .contenedor_de_la_imagen_y_de_la_informacion_del_producto {
-                  display: flex;
-                  justify-content: space-between;
-  
-                  .contenedor_de_la_imagen_del_producto_y_del_boton_eliminar_producto {
-                    .imagen_del_producto {
-                      width: 115px;
-  
-                      img {
-                        width: 115px;
-                      }
-                    }
-  
-                    .eliminar_producto {
-                      font-family: Verdana, Geneva, Tahoma, sans-serif;
-                      font-size: 12px;
-                      color: white;
-                      background-color: red;
-                      padding: 2px;
-                      border-radius: 10px;
-                    }
-                  }
-  
-                  .informacion_del_producto {
-                    margin: 0;
-                    padding: 0px 0px 0px 5px;
-  
-                    .cantidad {
-                      margin: 0;
-                      margin-top: 5px;
-                      line-height: normal;
-                      font-size: 15px;
-                      font-weight: 600;
-                      font-family: Verdana, Geneva, Tahoma, sans-serif;
-                      color: #0f0f0f;
-                      text-align: right;
-                    }
-  
-                    .precio_normal {
-                      margin: 0;
-                      margin-top: 5px;
-                      line-height: normal;
-                      font-size: 15px;
-                      font-weight: 600;
-                      font-family: Verdana, Geneva, Tahoma, sans-serif;
-                      color: gray;
-                      text-align: right;
-                    }
-  
-                    .precio_con_transferencia {
-                      margin: 0;
-                      margin-top: 5px;
-                      line-height: normal;
-                      font-size: 15px;
-                      font-weight: 600;
-                      font-family: Verdana, Geneva, Tahoma, sans-serif;
-                      color: #0f0f0f;
-                      text-align: left;
-                    }
-  
-                    .precio_con_otros_medios_de_pago {
-                      margin: 0;
-                      margin-top: 5px;
-                      line-height: normal;
-                      font-size: 15px;
-                      font-weight: 600;
-                      font-family: Verdana, Geneva, Tahoma, sans-serif;
-                      color: #0f0f0f;
-                      text-align: left;
-                    }
+                  color: white;
+                  font-size: 16px;
+                  background-color: black;
+                  border: solid 2px red;
+                  border-radius: 10px;
+                  text-align: left;
+                  transition-duration: 0.5s;
+                  padding: 2px;
+
+                  &:hover {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: black;
+                    font-size: 16px;
+                    background-color: rgb(0, 194, 0);
+                    border: 2px solid rgb(7, 80, 0);
                   }
                 }
               }
             }
-            .contenedor_de_totales_a_pagar_y_del_boton_iniciar_pago{
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              .contenedor_de_total_de_pago_con_transferencia_y_de_total_con_otros_medios_de_pago{
-                .pago_con_transferencia {
-                  margin: 0;
-                  margin-top: 5px;
-                  margin-bottom: 5px;
-                  line-height: normal;
-                  font-size: 15px;
-                  font-weight: 600;
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: #0f0f0f;
-                  text-align: left;
-                }
-  
-                .Otros_medios_de_pago {
-                  margin: 0;
-                  margin-top: 5px;
-                  margin-bottom: 5px;
-                  line-height: normal;
-                  font-size: 15px;
-                  font-weight: 600;
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: #0f0f0f;
-                  text-align: left;
-                }
-              }
-  
-              .btn_iniciar_pago {
-                text-decoration: none;
+          }
+
+          .li_servicios {
+            .a_servicios {
+              text-decoration: none;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: white;
+              font-size: 16px;
+              font-weight: 600;
+              padding: 0px 60px 0px 60px;
+              background-color: black;
+              border: solid 2px red;
+              border-radius: 10px;
+              text-align: center;
+              transition-duration: 0.5s;
+
+              &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 15px;
+                color: black;
+                font-size: 16px;
                 font-weight: 600;
-                color: white;
-                background-color: red;
-                padding: 4px;
-                border-radius: 10px;
-                margin-right: 50px;
-                line-height: normal;
-                height: 2em;
+                background-color: rgb(0, 194, 0);
+                border: 2px solid rgb(7, 80, 0);
               }
             }
           }
-        }
-  
-        .navbar_contenedor {
-          ul {
-            padding: 0;
-  
-            .li_inicio {
-              .a_inicio {
-                text-decoration: none;
+
+          .li_contacto {
+            .a_contacto {
+              text-decoration: none;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: white;
+              font-size: 16px;
+              font-weight: 600;
+              padding: 0px 60px 0px 60px;
+              background-color: black;
+              border: solid 2px red;
+              border-radius: 10px;
+              text-align: center;
+              transition-duration: 0.5s;
+
+              &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
+                color: black;
                 font-size: 16px;
                 font-weight: 600;
-                padding: 0px 60px 0px 60px;
-                background-color: black;
-                border: solid 2px red;
-                border-radius: 10px;
-                text-align: center;
-                transition-duration: 0.5s;
-  
-                &:hover {
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: black;
-                  font-size: 16px;
-                  font-weight: 600;
-                  background-color: rgb(0, 194, 0);
-                  border: 2px solid rgb(7, 80, 0);
-                }
+                background-color: rgb(0, 194, 0);
+                border: 2px solid rgb(7, 80, 0);
               }
             }
-  
-            .li_nosotros {
-              .a_nosotros {
-                text-decoration: none;
+          }
+
+          .li_experiencia {
+            .a_experiencia {
+              text-decoration: none;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: white;
+              font-size: 16px;
+              font-weight: 600;
+              padding: 0px 60px 0px 60px;
+              background-color: black;
+              border: solid 2px red;
+              border-radius: 10px;
+              text-align: center;
+              transition-duration: 0.5s;
+
+              &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
+                color: black;
                 font-size: 16px;
                 font-weight: 600;
-                padding: 0px 60px 0px 60px;
-                background-color: black;
-                border: solid 2px red;
-                border-radius: 10px;
-                text-align: center;
-                transition-duration: 0.5s;
-  
-                &:hover {
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: black;
-                  font-size: 16px;
-                  font-weight: 600;
-                  background-color: rgb(0, 194, 0);
-                  border: 2px solid rgb(7, 80, 0);
-                }
-              }
-            }
-  
-            .li_productos {
-              .a_productos {
-                text-decoration: none;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
-                font-size: 16px;
-                font-weight: 600;
-                padding: 0px 60px 0px 60px;
-                background-color: black;
-                border: solid 2px red;
-                border-radius: 10px;
-                text-align: center;
-                transition-duration: 0.5s;
-  
-                &:hover {
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: black;
-                  font-size: 16px;
-                  font-weight: 600;
-                  background-color: rgb(0, 194, 0);
-                  border: 2px solid rgb(7, 80, 0);
-                }
-              }
-            }
-  
-            .li_servicios {
-              .a_servicios {
-                text-decoration: none;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
-                font-size: 16px;
-                font-weight: 600;
-                padding: 0px 60px 0px 60px;
-                background-color: black;
-                border: solid 2px red;
-                border-radius: 10px;
-                text-align: center;
-                transition-duration: 0.5s;
-  
-                &:hover {
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: black;
-                  font-size: 16px;
-                  font-weight: 600;
-                  background-color: rgb(0, 194, 0);
-                  border: 2px solid rgb(7, 80, 0);
-                }
-              }
-            }
-  
-            .li_contacto {
-              .a_contacto {
-                text-decoration: none;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
-                font-size: 16px;
-                font-weight: 600;
-                padding: 0px 60px 0px 60px;
-                background-color: black;
-                border: solid 2px red;
-                border-radius: 10px;
-                text-align: center;
-                transition-duration: 0.5s;
-  
-                &:hover {
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: black;
-                  font-size: 16px;
-                  font-weight: 600;
-                  background-color: rgb(0, 194, 0);
-                  border: 2px solid rgb(7, 80, 0);
-                }
-              }
-            }
-  
-            .li_experiencia {
-              .a_experiencia {
-                text-decoration: none;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
-                font-size: 16px;
-                font-weight: 600;
-                padding: 0px 60px 0px 60px;
-                background-color: black;
-                border: solid 2px red;
-                border-radius: 10px;
-                text-align: center;
-                transition-duration: 0.5s;
-  
-                &:hover {
-                  font-family: Verdana, Geneva, Tahoma, sans-serif;
-                  color: black;
-                  font-size: 16px;
-                  font-weight: 600;
-                  background-color: rgb(0, 194, 0);
-                  border: 2px solid rgb(7, 80, 0);
-                }
+                background-color: rgb(0, 194, 0);
+                border: 2px solid rgb(7, 80, 0);
               }
             }
           }
@@ -459,4 +499,4 @@ header {
       }
     }
   }
-  
+}

@@ -1,0 +1,22 @@
+//! VARIABLES
+$color-principal: #0f0f0f;
+$color-secundario: red;
+$color-tercero: white;
+$color-cuarto: black;
+$color-quinto: rgb(0, 194, 0);
+$color-sexto: rgb(7, 80, 0);
+
+//! LISTA
+$paleta-de-colores: #0f0f0f, red, white, black, rgb(0, 194, 0), rgb(7, 80, 0);
+
+//! EXTENDS
+%flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+//! MIXINS
+@mixin flex ($display, $justify){
+    display: $display;
+    justify-content: $justify;
+}

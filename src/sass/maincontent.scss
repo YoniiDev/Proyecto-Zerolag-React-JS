@@ -1,0 +1,348 @@
+@import "./bases/variables.scss";
+.ofertas_imperdibles {
+    h2 {
+        text-align: center;
+        background-color: $color-cuarto;
+        color: $color-tercero;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 600;
+        border: solid 2px $color-secundario;
+        margin: 0;
+    }
+
+    .productos_ofertas_imperdibles {
+        @include flex (flex, space-around);
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .tarjetas_de_producto_ofertas_imperdibles {
+            width: 254px;
+            height: 100%;
+            border: 2px solid $color-secundario;
+            box-shadow: 0px 0px 5px 3px black;
+            margin: 20px;
+            text-align: center;
+            background-color: $color-principal;
+            padding-bottom: 15px;
+            line-height: 1.2;
+            transition: 2s;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+            }
+
+            img {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+            }
+
+            h3 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                color: $color-tercero;
+                margin: 5px 0px 0px 0px;
+            }
+
+            .ofertas_imperdibles_descripcion_producto {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+                color: $color-tercero;
+                margin: 5px 0px 0px 0px;
+                text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+
+            .ofertas_imperdibles_precio_normal_y_porcentaje_de_descuento_contenedor {
+                @include flex (flex, space-around);
+                margin: 5px 0px 0px 0px;
+
+                .ofertas_imperdibles_porcentaje_de_descuento {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    background-color: $color-secundario;
+                    color: $color-tercero;
+                    border-radius: 10px;
+                    padding: 2px;
+                    margin: 0;
+                }
+
+                .ofertas_imperdibles_precio_normal {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 100;
+                    color: $color-tercero;
+                    margin: 0;
+                }
+            }
+
+            .ofertas_imperdibles_precio_producto_con_transferencia {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                color: $color-quinto;
+                margin: 5px 0px 10px 0px;
+                text-align: left;
+                margin: 5px 0px 0px 0px;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+
+            .ofertas_imperdibles_precio_producto_otros_medios_de_pago {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12px;
+                font-weight: 100;
+                color: $color-tercero;
+                margin: 5px 0px 15px 0px;
+                text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-tercero;
+                background-color: $color-cuarto;
+                padding: 5px;
+                border: solid 2px $color-secundario;
+                border-radius: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                transition-duration: 0.5s;
+
+                &:hover {
+                    background-color: $color-quinto;
+                    border: 2px solid $color-sexto;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: $color-cuarto;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.te_puede_interesar {
+    h2 {
+        text-align: center;
+        background-color: nth($paleta-de-colores, 4);
+        color: nth($paleta-de-colores, 3);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 600;
+        border: solid 2px nth($paleta-de-colores, 2);
+        margin: 0;
+
+    }
+
+    .productos_te_puede_interesar {
+        @include flex (flex, space-around);
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .tarjetas_de_producto_te_puede_interesar {
+            width: 254px;
+            height: 100%;
+            padding-bottom: 15px;
+            border: 2px solid nth($paleta-de-colores, 2);
+            box-shadow: 0px 0px 5px 3px black;
+            margin: 20px;
+            text-align: center;
+            background-color: nth($paleta-de-colores, 1);
+            line-height: 1.2;
+            transition: 2s;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+            }
+
+            img {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+            }
+
+            h3 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                color: nth($paleta-de-colores, 3);
+                margin: 10px;
+            }
+
+            .te_puede_interesar_descripcion_producto {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+                color: nth($paleta-de-colores, 3);
+                margin: 5px 0px 0px 0px;
+                text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+
+            .te_puede_interesar_precio_normal_y_porcentaje_de_descuento_contenedor {
+                @include flex (flex, space-around);
+                margin: 5px 0px 0px 0px;
+
+                .te_puede_interesar_porcentaje_de_descuento {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    background-color: nth($paleta-de-colores, 2);
+                    color: nth($paleta-de-colores, 3);
+                    border-radius: 10px;
+                    padding: 2px;
+                    margin: 0;
+
+                }
+
+                .te_puede_interesar_precio_normal {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 12px;
+                    font-weight: 100;
+                    color: nth($paleta-de-colores, 3);
+                    margin: 0;
+                }
+            }
+
+            .te_puede_interesar_precio_producto_con_transferencia {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                color: nth($paleta-de-colores, 5);
+                margin: 5px 0px 10px 0px;
+                text-align: left;
+                margin: 5px 0px 0px 0px;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+
+            .te_puede_interesar_precio_producto_otros_medios_de_pago {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 12px;
+                font-weight: 100;
+                color: nth($paleta-de-colores, 3);
+                margin: 5px 0px 15px 0px;
+                text-align: left;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+
+            a {
+                text-decoration: none;
+                color: nth($paleta-de-colores, 3);
+                background-color: nth($paleta-de-colores, 4);
+                padding: 5px;
+                border: solid 2px nth($paleta-de-colores, 2);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                border-radius: 10px;
+                transition-duration: 0.5s;
+
+                &:hover {
+                    background-color: nth($paleta-de-colores, 5);
+                    border: 2px solid nth($paleta-de-colores, 6);
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: nth($paleta-de-colores, 4);
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.conoce_nuestros_servicios {
+    h2 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 600;
+        border: solid 2px red;
+        margin: 0;
+
+    }
+
+    .conoce_nuestros_servicios_contenedor {
+        @include flex (flex, space-around);
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        div {
+            width: 334px;
+            height: 430px;
+            border: 2px solid red;
+            margin: 20px;
+            box-shadow: 0px 0px 5px 3px black;
+            text-align: center;
+            background-color: #0f0f0f;
+            transition: 2s;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.75);
+            }
+
+            img {
+                width: 330px;
+                height: 350px;
+                object-fit: cover;
+            }
+
+            h3 {
+                margin: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                padding: 5px;
+                border: solid 2px red;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                border-radius: 10px;
+                transition-duration: 0.5s;
+
+                &:hover {
+                    background-color: rgb(0, 194, 0);
+                    border: 2px solid rgb(7, 80, 0);
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                }
+            }
+
+        }
+
+    }
+}

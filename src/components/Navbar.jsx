@@ -1,7 +1,9 @@
+import '../sass/navbar.scss'
 import { CartWidget } from "./CartWidget";
 import { Searchbar } from "./Searchbar";
 import { TogglerNavbar } from "./TogglerNavbar";
 import { LoginUser } from "./LoginUser";
+import { Categories } from './Categories';
 export const Navbar = () => {
     return (
         <header>
@@ -24,24 +26,7 @@ export const Navbar = () => {
                     {/* BARRA DE NAVEGACION */}
                     <div className="navbar_contenedor collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav me-auto mb-lg-0 container-fluid d-flex justify-content-around">
-                            <li className="li_inicio">
-                                <a className="a_inicio" aria-current="page" href="#">Inicio</a>
-                            </li>
-                            <li className="li_nosotros">
-                                <a className="a_nosotros" href="#">Nosotros</a>
-                            </li>
-                            <li className="li_productos">
-                                <a className="a_productos" href="#">Productos</a>
-                            </li>
-                            <li className="li_servicios">
-                                <a className="a_servicios" href="#">Servicios</a>
-                            </li>
-                            <li className="li_contacto">
-                                <a className="a_contacto" href="#">Contacto</a>
-                            </li>
-                            <li className="li_experiencia">
-                                <a className="a_experiencia" href="#">Experiencia</a>
-                            </li>
+                            <Categories/>
                         </ul>
                     </div>
                 </div>

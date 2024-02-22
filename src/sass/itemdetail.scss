@@ -1,0 +1,196 @@
+.detalle_del_producto {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px black;
+    background-color: #0f0f0f;
+
+    .contenedor_de_imagen {
+        img {}
+    }
+
+    .información_del_producto {
+        .descripción_del_producto {
+            color: white;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .marca_del_producto {
+            color: white;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .informacion_de_precios {
+            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px;
+
+            .texto_normal {
+                text-align: left;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .precio_normal {
+                text-align: right;
+                text-decoration: line-through;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .texto_descuento {
+                text-align: left;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .porcentaje_de_descuento {
+                text-align: right;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .texto_pago_con_transferencia {
+                text-align: left;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .precio_transferencia {
+                text-align: right;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .texto_otros_medios_de_pago {
+                text-align: left;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .precio_otros_medios_de_pago {
+                text-align: right;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+        }
+
+        .informacion_de_stock {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .texto_stock {
+                text-align: left;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+
+            .cantidad_de_stock {
+                text-align: right;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                font-weight: 100;
+            }
+        }
+
+        .item_count_container {
+            width: 300px;
+            margin: auto;
+            background-color: gray;
+
+            .decrement_count_increment_container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 6px;
+
+                .drecrement_button {
+                    width: 30px;
+                    color: white;
+                    background-color: black;
+                    border: solid 2px red;
+                    border-radius: 5px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 16px;
+                    font-weight: 900;
+                }
+
+                .count {
+                    margin: 0 5px 0 5px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 16px;
+                    font-weight: 900;
+                    color: black;
+                }
+
+                .increment_button {
+                    width: 30px;
+                    color: white;
+                    background-color: black;
+                    border: solid 2px red;
+                    border-radius: 5px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 16px;
+                    font-weight: 900;
+                }
+            }
+
+            .reset_and_add_to_card_button_container {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .reset_button {
+                    color: white;
+                    background-color: black;
+                    border: solid 2px red;
+                    border-radius: 5px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    width: 4em;
+                }
+
+                .add_to_card_button {
+                    color: white;
+                    background-color: black;
+                    border: solid 2px red;
+                    border-radius: 5px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    width: 10em;
+                }
+            }
+        }
+    }
+}
