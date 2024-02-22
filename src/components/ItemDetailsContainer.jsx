@@ -10,7 +10,6 @@ export const ItemDetailsContainer = () => {
             .then(response => response.json())
             .then(products => {
                 const productFound = products.find(product => product.idDeProducto == pid)
-                console.log(productFound)
                 if (productFound) {
                     setItem(productFound)
                 }

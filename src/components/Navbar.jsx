@@ -14,7 +14,7 @@ export const Navbar = () => {
                         <div className="boton_navbar_y_logo_navbar_contenedor">
                             {/*ALTERNADOR DE LA BARRA DE NAVEGACIÓN*/}
                             <TogglerNavbar />
-                            <a className="logo_navbar navbar-brand" href="#"><span>Z</span>ero<span>L</span>ag</a>
+                            <p className="logo_navbar"><span>Z</span>ero<span>L</span>ag</p>
                         </div>
                         {/*BARRA DE BUSQUEDA*/}
                         <Searchbar />
@@ -26,7 +26,7 @@ export const Navbar = () => {
                     {/* BARRA DE NAVEGACION */}
                     <div className="navbar_contenedor collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav me-auto mb-lg-0 container-fluid d-flex justify-content-around">
-                            <Categories/>
+                            <Categories />
                         </ul>
                     </div>
                 </div>

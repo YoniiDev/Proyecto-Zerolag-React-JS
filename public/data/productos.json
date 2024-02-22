@@ -2,6 +2,7 @@
     {
         "idDeProducto": 1,
         "imagenDelProducto": "1.jpg",
+        "imagenDelDetalle": "1o.jpg",
         "marcaDeProducto": "ID-COOLING",
         "descripcionDeProducto": "Enfriamiento Liquido ID-Cooling FrostFlow X, 280mm, Intel/AMD, Color Negro", 
         "descuentoDeProducto": 0.5,
@@ -15,6 +16,7 @@
     {
         "idDeProducto": 2,
         "imagenDelProducto": "2.jpg",
+        "imagenDelDetalle": "2o.jpg",
         "marcaDeProducto": "KINGSTON",
         "descripcionDeProducto": "Unidad de Estado Sólido Kingston NV2, 1TB NVMe, PCIe 4.0, Lectura 3500 MB/s Escritura...", 
         "descuentoDeProducto": 0.62,
@@ -28,6 +30,7 @@
     {
         "idDeProducto": 3,
         "imagenDelProducto": "3.jpg",
+        "imagenDelDetalle": "3o.png",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Mouse Gamer Logitech G Pro, Sensor HERO 16K para eSports, 6 botones programables", 
         "descuentoDeProducto": 0.49,
@@ -41,6 +44,7 @@
     {
         "idDeProducto": 4,
         "imagenDelProducto": "4.jpg",
+        "imagenDelDetalle": "4o.jpg",
         "marcaDeProducto": "GIGABYTE",
         "descripcionDeProducto": "Tarjeta de Video Gigabyte GeForce RTX 3060 WINDFORCE OC, 12GB GDDR6, 192-bit...", 
         "descuentoDeProducto": 0.27,
@@ -54,6 +58,7 @@
     {
         "idDeProducto": 5,
         "imagenDelProducto": "5.jpg",
+        "imagenDelDetalle": "5o.jpg",
         "marcaDeProducto": "AOC",
         "descripcionDeProducto": "Monitor Curvo de 24\" AOC C24G2, Panel VA, 165Hz, 1ms, FreeSync Premium", 
         "descuentoDeProducto": 0.3,
@@ -67,6 +72,7 @@
     {
         "idDeProducto": 6,
         "imagenDelProducto": "6.jpg",
+        "imagenDelDetalle": "6o.png",
         "marcaDeProducto": "XPG",
         "descripcionDeProducto": "Notebook Gamer XPG Xenia G15, 16\" FHD 144hz, i7 13700H, RTX 4070, RAM 32GB, SSD 1TB", 
         "descuentoDeProducto": 0.17,
@@ -80,6 +86,7 @@
     {
         "idDeProducto": 7,
         "imagenDelProducto": "7.jpg",
+        "imagenDelDetalle": "7o.jpg",
         "marcaDeProducto": "REDRAGON",
         "descripcionDeProducto": "Teclado Mecánico Gamer Redragon Kumara K552, Switch Outemu Red, Retroiluminación...", 
         "descuentoDeProducto": 0.45,
@@ -93,6 +100,7 @@
     {
         "idDeProducto": 8,
         "imagenDelProducto": "8.jpg",
+        "imagenDelDetalle": "8o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Tarjeta de Video Asus ROG Strix GeForce RTX 4080 16GB GDDR6X OC Edition, PCIe 4.0", 
         "descuentoDeProducto": 0.10,
@@ -106,6 +114,7 @@
     {
         "idDeProducto": 9,
         "imagenDelProducto": "9.jpg",
+        "imagenDelDetalle": "9o.jpg",
         "marcaDeProducto": "STREAMPLIFY",
         "descripcionDeProducto": "Micrófono RGB Streamplify, Condensador, Antipop, Brazo Escritorio, Cardioide, USB...", 
         "descuentoDeProducto": 0.2,
@@ -119,6 +128,7 @@
     {
         "idDeProducto": 10,
         "imagenDelProducto": "10.jpg",
+        "imagenDelDetalle": "10o.png",
         "marcaDeProducto": "NITRO CONCEPTS",
         "descripcionDeProducto": "Escritorio Gamer Nitro Concepts D12 Black Red, Construcción de Acero, Tablero Ergonómico...", 
         "descuentoDeProducto": 0.2,
@@ -132,6 +142,7 @@
     {
         "idDeProducto": 11,
         "imagenDelProducto": "11.jpg",
+        "imagenDelDetalle": "11o.png",
         "marcaDeProducto": "ZEROLAG",
         "descripcionDeProducto": "PC Gamer ZEROLAG INFINITY, RTX 3070 OC, Ryzen 5600X, RAM 16GB(2x8)3200Mhz, SSD 1TB...", 
         "descuentoDeProducto": 0.2,
@@ -145,6 +156,7 @@
     {
         "idDeProducto": 12,
         "imagenDelProducto": "12.jpg",
+        "imagenDelDetalle": "12o.png",
         "marcaDeProducto": "ZEROLAG",
         "descripcionDeProducto": "PC Gamer ZEROLAG ORION, RTX 4070, Ryzen 5 5600X, RAM 16GB (2x8GB), SSD 1TB, W11 Home", 
         "descuentoDeProducto": 0.2,
@@ -158,6 +170,7 @@
     {
         "idDeProducto": 13,
         "imagenDelProducto": "13.jpg",
+        "imagenDelDetalle": "13o.jpg",
         "marcaDeProducto": "COOLER MASTER",
         "descripcionDeProducto": "Enfriamiento Líquido Cooler Master Masterliquid ML240L V2 RGB, 240mm, Intel/AMD", 
         "descuentoDeProducto": 0.19,
@@ -171,6 +184,7 @@
     {
         "idDeProducto": 14,
         "imagenDelProducto": "14.jpg",
+        "imagenDelDetalle": "14o.jpg",
         "marcaDeProducto": "KINGSTON",
         "descripcionDeProducto": "Unidad de Estado Sólido Kingston KC600, 2 TB, SATA3, 2.5 pulgadas", 
         "descuentoDeProducto": 0.27,
@@ -184,6 +198,7 @@
     {
         "idDeProducto": 15,
         "imagenDelProducto": "15.jpg",
+        "imagenDelDetalle": "15o.jpg",
         "marcaDeProducto": "REDRAGON",
         "descripcionDeProducto": "Mouse Gamer Redragon Dagger M715", 
         "descuentoDeProducto": 0.17,
@@ -197,6 +212,7 @@
     {
         "idDeProducto": 16,
         "imagenDelProducto": "16.jpg",
+        "imagenDelDetalle": "16o.jpg",
         "marcaDeProducto": "SAMSUNG",
         "descripcionDeProducto": "Monitor Samsung Smart Monitor M5, 27\" FHD, 60hz, SmartTV, HDR10, Black", 
         "descuentoDeProducto": 0.3,
@@ -210,6 +226,7 @@
     {
         "idDeProducto": 17,
         "imagenDelProducto": "17.jpg",
+        "imagenDelDetalle": "17o.jpeg",
         "marcaDeProducto": "THUNDEROBOT",
         "descripcionDeProducto": "Notebook Gamer Thunderobot 911X, 15\" FHD, i5-12450H, RTX 3050 4GB, RAM 8GB, SSD 512GB, W11 Pro", 
         "descuentoDeProducto": 0.04,
@@ -223,6 +240,7 @@
     {
         "idDeProducto": 18,
         "imagenDelProducto": "18.jpg",
+        "imagenDelDetalle": "18o.jpg",
         "marcaDeProducto": "REDRAGON",
         "descripcionDeProducto": "Teclado Gamer Redragon Dyaus K509, Membrana, Black, Luces RGB", 
         "descuentoDeProducto": 0.18,
@@ -236,6 +254,7 @@
     {
         "idDeProducto": 19,
         "imagenDelProducto": "19.jpg",
+        "imagenDelDetalle": "19o.jpg",
         "marcaDeProducto": "BOYA",
         "descripcionDeProducto": "Microfono de Escritorio Boya BY-PM700, USB, Multi Patrón", 
         "descuentoDeProducto": 0.1,
@@ -249,6 +268,7 @@
     {
         "idDeProducto": 20,
         "imagenDelProducto": "20.jpg",
+        "imagenDelDetalle": "20o.jpg",
         "marcaDeProducto": "TRUST",
         "descripcionDeProducto": "Escritorio Gamer Trust GXT 1190 Magnicus 160x82cm, Carga Inalámbrica, Negro", 
         "descuentoDeProducto": 0.15,
@@ -263,6 +283,7 @@
     {
         "idDeProducto": 21,
         "imagenDelProducto": "21.jpg",
+        "imagenDelDetalle": "21o.jpg",
         "marcaDeProducto": "ID-COOLING",
         "descripcionDeProducto": "Enfriamiento Liquido ID-Cooling ZoomFlow 240XT Snow, Intel/AMD, A-RGB, Blanco", 
         "descuentoDeProducto": 0.35,
@@ -276,6 +297,7 @@
     {
         "idDeProducto": 22,
         "imagenDelProducto": "22.jpg",
+        "imagenDelDetalle": "22o.jpg",
         "marcaDeProducto": "ID-COOLING",
         "descripcionDeProducto": "Enfriamiento Liquido ID-Cooling ZoomFlow 240XT, 240mm, Intel/AMD, ARGB", 
         "descuentoDeProducto": 0.38,
@@ -289,6 +311,7 @@
     {
         "idDeProducto": 23,
         "imagenDelProducto": "23.jpg",
+        "imagenDelDetalle": "23o.jpg",
         "marcaDeProducto": "BE QUIET!",
         "descripcionDeProducto": "Enfriamiento Liquido be quiet! Pure Loop 240mm silenciosa y de alto rendimiento, Iluminación Led", 
         "descuentoDeProducto": 0.37,
@@ -302,6 +325,7 @@
     {
         "idDeProducto": 24,
         "imagenDelProducto": "24.jpg",
+        "imagenDelDetalle": "24o.jpg",
         "marcaDeProducto": "MSI",
         "descripcionDeProducto": "Enfriamiento Líquido AIO MSI MAG CORELIQUID C240, 240mm, 500-2000 RPM, Intel/AMD, RGB", 
         "descuentoDeProducto": 0.19,
@@ -315,6 +339,7 @@
     {
         "idDeProducto": 25,
         "imagenDelProducto": "25.jpg",
+        "imagenDelDetalle": "25o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Enfriamiento Liquido Asus ROG Ryujin III 360 ARGB EVA-02 Edition, Pantalla LCD de 3.5 pulgadas, 360mm, A-RGB", 
         "descuentoDeProducto": 0.02,
@@ -328,6 +353,7 @@
     {
         "idDeProducto": 26,
         "imagenDelProducto": "26.jpg",
+        "imagenDelDetalle": "26o.jpg",
         "marcaDeProducto": "COOLER MASTER",
         "descripcionDeProducto": "Enfriamiento Líquido Cooler Master MasterLiquid 240L Core ARGB, 240mm, Intel/AMD", 
         "descuentoDeProducto": 0.31,
@@ -341,6 +367,7 @@
     {
         "idDeProducto": 27,
         "imagenDelProducto": "27.jpg",
+        "imagenDelDetalle": "27o.jpg",
         "marcaDeProducto": "COOLER MASTER",
         "descripcionDeProducto": "Enfriamiento Líquido Cooler Master MasterLiquid 360L Core ARGB, 360mm, Intel/AMD", 
         "descuentoDeProducto": 0.15,
@@ -354,6 +381,7 @@
     {
         "idDeProducto": 28,
         "imagenDelProducto": "28.jpg",
+        "imagenDelDetalle": "28o.jpg",
         "marcaDeProducto": "COOLER MASTER",
         "descripcionDeProducto": "Enfriamiento Líquido Cooler Master Masterliquid ML240L V2 RGB, 240mm, Intel/AMD", 
         "descuentoDeProducto": 0.15,
@@ -367,6 +395,7 @@
     {
         "idDeProducto": 29,
         "imagenDelProducto": "29.png",
+        "imagenDelDetalle": "29o.png",
         "marcaDeProducto": "LEXAR",
         "descripcionDeProducto": "Unidad SSD Lexar® NQ100, 1920GB, 2.5 pulgadas, SATA3, 3D NAND, Lectura 550MB/s, Escritura 450MB/s", 
         "descuentoDeProducto": 0.10,
@@ -380,6 +409,7 @@
     {
         "idDeProducto": 30,
         "imagenDelProducto": "30.png",
+        "imagenDelDetalle": "30o.png",
         "marcaDeProducto": "XPG",
         "descripcionDeProducto": "Unidad SSD XPG GAMMIX S70 BLADE, 1TB, NVMe, PCI-e Gen 4 x4, m.2 2280, PC/PS5", 
         "descuentoDeProducto": 0.14,
@@ -393,6 +423,7 @@
     {
         "idDeProducto": 31,
         "imagenDelProducto": "31.jpg",
+        "imagenDelDetalle": "31o.jpg",
         "marcaDeProducto": "KINGSTON",
         "descripcionDeProducto": "Unidad de Estado Sólido Kingston FURY Renegade, 2 TB, M.2 2280 PCIe 4.0, con Heatsink, para PS5", 
         "descuentoDeProducto": 0.15,
@@ -406,6 +437,7 @@
     {
         "idDeProducto": 32,
         "imagenDelProducto": "32.jpg",
+        "imagenDelDetalle": "32o.jpg",
         "marcaDeProducto": "KINGSTON",
         "descripcionDeProducto": "Unidad de Estado Sólido Kingston FURY Renegade, 2TB, PCIe 4.0, NVMe M.2", 
         "descuentoDeProducto": 0.06,
@@ -419,6 +451,7 @@
     {
         "idDeProducto": 33,
         "imagenDelProducto": "33.jpg",
+        "imagenDelDetalle": "33o.jpg",
         "marcaDeProducto": "KINGSTON",
         "descripcionDeProducto": "Unidad de Estado Sólido Kingston FURY Renegade, 4TB, PCIe 4.0, NVMe M.2", 
         "descuentoDeProducto": 0.19,
@@ -432,6 +465,7 @@
     {
         "idDeProducto": 34,
         "imagenDelProducto": "34.jpg",
+        "imagenDelDetalle": "34o.jpg",
         "marcaDeProducto": "WESTERN DIGITAL",
         "descripcionDeProducto": "Unidad de Estado Sólido WD Blue SN570, 250GB, NVMe M.2, Lectura 3300 MB/s Escritura 1200MB/s", 
         "descuentoDeProducto": 0.22,
@@ -445,6 +479,7 @@
     {
         "idDeProducto": 35,
         "imagenDelProducto": "35.jpg",
+        "imagenDelDetalle": "35o.jpg",
         "marcaDeProducto": "KINGSTON",
         "descripcionDeProducto": "Unidad SSD Kingston FURY Renegade, 4 TB, M.2 2280, NVMe, PCIe 4.0 x4, con Heatsink, PS5, PC", 
         "descuentoDeProducto": 0.15,
@@ -458,6 +493,7 @@
     {
         "idDeProducto": 36,
         "imagenDelProducto": "36.jpg",
+        "imagenDelDetalle": "36o.jpg",
         "marcaDeProducto": "KINGSTON",
         "descripcionDeProducto": "Unidad de Estado Sólido Kingston FURY Renegade, 500GB, NVMe M.2, Lectura 7300MB/s Escritura 3900MB/s", 
         "descuentoDeProducto": 0.38,
@@ -471,6 +507,7 @@
     {
         "idDeProducto": 37,
         "imagenDelProducto": "37.jpg",
+        "imagenDelDetalle": "37o.jpg",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Mouse Logitech G Pro X Superlight, Wireless, Lightspeed, Sensor Hero, 25000DPI, 1000Hz, Color blanco", 
         "descuentoDeProducto": 0.15,
@@ -484,6 +521,7 @@
     {
         "idDeProducto": 38,
         "imagenDelProducto": "38.jpg",
+        "imagenDelDetalle": "38o.jpg",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Mouse Logitech G Pro X Superlight, Wireless, Lightspeed, Sensor Hero, 25000DPI, 1000Hz, Color negro", 
         "descuentoDeProducto": 0.15,
@@ -497,6 +535,7 @@
     {
         "idDeProducto": 39,
         "imagenDelProducto": "39.jpg",
+        "imagenDelDetalle": "39o.png",
         "marcaDeProducto": "STEELSERIES",
         "descripcionDeProducto": "Mouse Gamer Inalámbrico SteelSeries Aerox 5 Diablo IV Edition, 2.4GHz, Bluetooth, 18000DPI", 
         "descuentoDeProducto": 0.46,
@@ -510,6 +549,7 @@
     {
         "idDeProducto": 40,
         "imagenDelProducto": "40.jpg",
+        "imagenDelDetalle": "40o.jpg",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Mouse Logitech G Pro X Superlight, Wireless, Lightspeed, Hero, 25000DPI, 1000Hz, Color Magenta", 
         "descuentoDeProducto": 0.15,
@@ -523,6 +563,7 @@
     {
         "idDeProducto": 41,
         "imagenDelProducto": "41.jpg",
+        "imagenDelDetalle": "41o.jpg",
         "marcaDeProducto": "REDRAGON",
         "descripcionDeProducto": "Mouse Gamer Redragon Cobra M711W, RGB, 8 Botones, 10000DPI, Blanco", 
         "descuentoDeProducto": 0.19,
@@ -536,6 +577,7 @@
     {
         "idDeProducto": 42,
         "imagenDelProducto": "42.jpg",
+        "imagenDelDetalle": "42o.jpg",
         "marcaDeProducto": "COOLER MASTER",
         "descripcionDeProducto": "Mouse Gamer Cooler Master MM711, 6 Botones, 16000 DPI, Black Matte", 
         "descuentoDeProducto": 0.19,
@@ -549,6 +591,7 @@
     {
         "idDeProducto": 43,
         "imagenDelProducto": "43.png",
+        "imagenDelDetalle": "43o.png",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Mouse Gamer Logitech G Pro Wireless, Edición League Of Legends, Lightspeed, 1ms, Sensor Hero 25K", 
         "descuentoDeProducto": 0.15,
@@ -562,6 +605,7 @@
     {
         "idDeProducto": 44,
         "imagenDelProducto": "44.jpg",
+        "imagenDelDetalle": "44o.jpg",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Mouse Gamer Logitech G MX518 Legendary 16000DPI, 8 botones programables,HERO™ 16K Sensor", 
         "descuentoDeProducto": 0.19,
@@ -575,6 +619,7 @@
     {
         "idDeProducto": 45,
         "imagenDelProducto": "45.jpg",
+        "imagenDelDetalle": "45o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Tarjeta de Video ASUS Dual Nvidia GeForce RTX 4070 SUPER White OC Edition, 12GB GDDR6X, DLSS 3", 
         "descuentoDeProducto": 0.13,
@@ -588,6 +633,7 @@
     {
         "idDeProducto": 46,
         "imagenDelProducto": "46.jpg",
+        "imagenDelDetalle": "46o.jpg",
         "marcaDeProducto": "PNY",
         "descripcionDeProducto": "Tarjeta De Video PNY GeForce RTX 3060 Verto, 12GB, 192-Bits, GDDR6, Dual Fan, PCI-e 4.0", 
         "descuentoDeProducto": 0.32,
@@ -601,6 +647,7 @@
     {
         "idDeProducto": 47,
         "imagenDelProducto": "47.png",
+        "imagenDelDetalle": "47o.png",
         "marcaDeProducto": "GIGABYTE",
         "descripcionDeProducto": "Tarjeta de Video GIGABYTE Radeon RX 7700 XT GAMING OC, 12GB GDDR6, 192-bit, PCI-e 4.0", 
         "descuentoDeProducto": 0.24,
@@ -614,6 +661,7 @@
     {
         "idDeProducto": 48,
         "imagenDelProducto": "48.png",
+        "imagenDelDetalle": "48o.png",
         "marcaDeProducto": "ZOTAC",
         "descripcionDeProducto": "Tarjeta De Video Zotac NVIDIA GeForce RTX 4060 Twin Edge OC, 8GB, 128-Bits, GDDR6, PCI-e 4.0", 
         "descuentoDeProducto": 0.28,
@@ -627,6 +675,7 @@
     {
         "idDeProducto": 49,
         "imagenDelProducto": "49.jpg",
+        "imagenDelDetalle": "49o.jpg",
         "marcaDeProducto": "MSI",
         "descripcionDeProducto": "Tarjeta de Videa NVIDIA MSI GT 1030 4GB GDDR4", 
         "descuentoDeProducto": 0.18,
@@ -640,6 +689,7 @@
     {
         "idDeProducto": 50,
         "imagenDelProducto": "50.jpg",
+        "imagenDelDetalle": "50o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Tarjeta de Video ASUS Dual GeForce® GTX 1650 4GB GDDR6 EVO", 
         "descuentoDeProducto": 0.16,
@@ -653,6 +703,7 @@
     {
         "idDeProducto": 51,
         "imagenDelProducto": "51.jpg",
+        "imagenDelDetalle": "51o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Tarjeta de Video ASUS Dual GeForce RTX™ 4060 Ti OC Edition, 8GB GDDR6, 128-bit, PCIe 4.0", 
         "descuentoDeProducto": 0.21,
@@ -666,6 +717,7 @@
     {
         "idDeProducto": 52,
         "imagenDelProducto": "52.jpg",
+        "imagenDelDetalle": "52o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Tarjeta de Video Asus DUAL GTX 1650 OC EVO, 4GB GDDR6, 128-bit, PCI-e 3.0", 
         "descuentoDeProducto": 0.16,
@@ -679,6 +731,7 @@
     {
         "idDeProducto": 53,
         "imagenDelProducto": "53.png",
+        "imagenDelDetalle": "53o.png",
         "marcaDeProducto": "HELLOPRO",
         "descripcionDeProducto": "Monitor Portatil HelloPro Hello M1, 15.6'', IPS, HDR, 60Hz, Incluye Funda", 
         "descuentoDeProducto": 0.30,
@@ -692,6 +745,7 @@
     {
         "idDeProducto": 54,
         "imagenDelProducto": "54.jpg",
+        "imagenDelDetalle": "54o.jpg",
         "marcaDeProducto": "AOC",
         "descripcionDeProducto": "Monitor LED AOC 20E1H d 19.5 pulgadas, Resolución 1600 x 900, 5 ms", 
         "descuentoDeProducto": 0.50,
@@ -705,6 +759,7 @@
     {
         "idDeProducto": 55,
         "imagenDelProducto": "55.png",
+        "imagenDelDetalle": "55o.png",
         "marcaDeProducto": "SAMSUNG",
         "descripcionDeProducto": "Monitor Curvo Samsung de 27”, FullHD, 75HZ, Panel VA, VGA, HDMI, FreeSync, Certificado TUV", 
         "descuentoDeProducto": 0.31,
@@ -718,6 +773,7 @@
     {
         "idDeProducto": 56,
         "imagenDelProducto": "56.png",
+        "imagenDelDetalle": "56o.png",
         "marcaDeProducto": "SAMSUNG",
         "descripcionDeProducto": "Monitor Profesional Samsung, 22'', FHD (1920x1080), Panel VA, 60Hz", 
         "descuentoDeProducto": 0.44,
@@ -731,6 +787,7 @@
     {
         "idDeProducto": 57,
         "imagenDelProducto": "57.jpg",
+        "imagenDelDetalle": "57o.jpg",
         "marcaDeProducto": "SAMSUNG",
         "descripcionDeProducto": "Monitor Samsung de 24 pulgadas, Full HD, Panel IPS, 75Hz, 5ms, AMD FreeSync", 
         "descuentoDeProducto": 0.33,
@@ -744,6 +801,7 @@
     {
         "idDeProducto": 58,
         "imagenDelProducto": "58.jpg",
+        "imagenDelDetalle": "58o.jpg",
         "marcaDeProducto": "SAMSUNG",
         "descripcionDeProducto": "Monitor Samsung Led 21.5 pulgadas, Diseño Súper Delgado, 60Hz, 1 x VGA 1 x HDMI", 
         "descuentoDeProducto": 0.42,
@@ -757,6 +815,7 @@
     {
         "idDeProducto": 59,
         "imagenDelProducto": "59.jpg",
+        "imagenDelDetalle": "59o.jpg",
         "marcaDeProducto": "AOC",
         "descripcionDeProducto": "Monitor AOC 21.5 pulgadas Wide 1920x1080, TN, 5ms, 60Hz, HDMI y VGA, VESA", 
         "descuentoDeProducto": 0.24,
@@ -770,6 +829,7 @@
     {
         "idDeProducto": 60,
         "imagenDelProducto": "60.jpg",
+        "imagenDelDetalle": "60o.jpg",
         "marcaDeProducto": "AOC",
         "descripcionDeProducto": "Monitor AOC 22B2HN, 21.5 pulgadas FHD, 75Hz, Panel VA, 7ms, Montaje VESA", 
         "descuentoDeProducto": 0.43,
@@ -783,6 +843,7 @@
     {
         "idDeProducto": 61,
         "imagenDelProducto": "61.jpg",
+        "imagenDelDetalle": "61o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Notebook ASUS TUF F15, i7-11800H, RAM 8GB, SSD 512GB, RTX 3050Ti, 144Hz", 
         "descuentoDeProducto": 0.30,
@@ -796,6 +857,7 @@
     {
         "idDeProducto": 62,
         "imagenDelProducto": "62.jpg",
+        "imagenDelDetalle": "62o.jpg",
         "marcaDeProducto": "DELL",
         "descripcionDeProducto": "Notebook Gamer Dell G15 5530, 15.6 pulgadas FHD, RTX 4050, i5-13450HX, 16GB RAM, SSD 512GB, W11H", 
         "descuentoDeProducto": 0.27,
@@ -809,6 +871,7 @@
     {
         "idDeProducto": 63,
         "imagenDelProducto": "63.jpg",
+        "imagenDelDetalle": "63o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "ASUS ROG Strix SCAR 17, AMD Ryzen 9 7945HX3D, Ram 32GB, 17.3 pulgadas, SSD 2TB, RTX 4090, W11", 
         "descuentoDeProducto": 0.13,
@@ -822,6 +885,7 @@
     {
         "idDeProducto": 64,
         "imagenDelProducto": "64.jpg",
+        "imagenDelDetalle": "64o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Notebook ASUS ProArt StudioBook Pro 16, Xeon W-11955M, Ram 32GB, SSD 1TB, 16 pulgadas UHD RTX A3000, W11P", 
         "descuentoDeProducto": 0.19,
@@ -835,6 +899,7 @@
     {
         "idDeProducto": 65,
         "imagenDelProducto": "65.jpg",
+        "imagenDelDetalle": "65o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Notebook ASUS ProArt StudioBook Pro, i7-12700H, Ram 16GB, SSD 512GB, LED 16 pulgadas UHD, RTX 3060, W11 Pro", 
         "descuentoDeProducto": 0.2,
@@ -848,6 +913,7 @@
     {
         "idDeProducto": 66,
         "imagenDelProducto": "66.jpg",
+        "imagenDelDetalle": "66o.jpeg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Notebook ASUS ProArt StudioBook Pro, i7-12700H, Ram 32GB, SSD 1TB, LED 16 pulgadas UHD, RTX 3060, W11 Pro", 
         "descuentoDeProducto": 0.09,
@@ -861,6 +927,7 @@
     {
         "idDeProducto": 67,
         "imagenDelProducto": "67.jpg",
+        "imagenDelDetalle": "67o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Notebook ASUS ROG Flow X13, R9 5980HS, Ram 32GB, SSD 1TB, 13.4 pulgadas 120Hz, RTX 3080 Externa, W10H", 
         "descuentoDeProducto": 0.13,
@@ -874,6 +941,7 @@
     {
         "idDeProducto": 68,
         "imagenDelProducto": "68.jpg",
+        "imagenDelDetalle": "68o.jpg",
         "marcaDeProducto": "ASUS",
         "descripcionDeProducto": "Notebook Asus ROG Zephyrus M16, i7-11800H, Ram 16GB, SSD 512GB, LED 16 pulgadas QHD, RTX 3050Ti, W10 Home", 
         "descuentoDeProducto": 0.04,
@@ -887,6 +955,7 @@
     {
         "idDeProducto": 69,
         "imagenDelProducto": "69.png",
+        "imagenDelDetalle": "69o.png",
         "marcaDeProducto": "REDRAGON",
         "descripcionDeProducto": "Teclado Gamer Inalámbrico Redragon HORUS K618, Mecanico, RED SWES, Color Negro", 
         "descuentoDeProducto": 0.14,
@@ -900,6 +969,7 @@
     {
         "idDeProducto": 70,
         "imagenDelProducto": "70.jpg",
+        "imagenDelDetalle": "70o.jpg",
         "marcaDeProducto": "CORSAIR",
         "descripcionDeProducto": "Teclado Mecánico Corsair K60 RGB Pro, Switch Cherry MX Low Profile Speed, Negro", 
         "descuentoDeProducto": 0.22,
@@ -913,6 +983,7 @@
     {
         "idDeProducto": 71,
         "imagenDelProducto": "71.jpg",
+        "imagenDelDetalle": "71o.jpg",
         "marcaDeProducto": "PRIMUS GAMING",
         "descripcionDeProducto": "Teclado Mecánico Primus BALLISTA 90T Star Wars: Darth Vader Limited Edition, Switch Red, Español", 
         "descuentoDeProducto": 0.23,
@@ -926,6 +997,7 @@
     {
         "idDeProducto": 72,
         "imagenDelProducto": "72.jpg",
+        "imagenDelDetalle": "72o.jpg",
         "marcaDeProducto": "REDRAGON",
         "descripcionDeProducto": "Teclado Gamer Mecánico Redragon Shrapnel K589, RGB, Switches Outemu Blue Bajo Perfil, Layout Español", 
         "descuentoDeProducto": 0.27,
@@ -939,6 +1011,7 @@
     {
         "idDeProducto": 73,
         "imagenDelProducto": "73.jpg",
+        "imagenDelDetalle": "73o.jpg",
         "marcaDeProducto": "REDRAGON",
         "descripcionDeProducto": "Teclado Gamer Redragon Kumara K552, Mecánico, White, Iluminación Rainbow, Switch Red, Español", 
         "descuentoDeProducto": 0.30,
@@ -952,6 +1025,7 @@
     {
         "idDeProducto": 74,
         "imagenDelProducto": "74.jpg",
+        "imagenDelDetalle": "74o.jpg",
         "marcaDeProducto": "PRIMUS GAMING",
         "descripcionDeProducto": "Teclado Mecánico Primus BALLISTA 90T Star Wars: Ahsoka Limited Edition, Switch Red, Español", 
         "descuentoDeProducto": 0.15,
@@ -965,6 +1039,7 @@
     {
         "idDeProducto": 75,
         "imagenDelProducto": "75.jpg",
+        "imagenDelDetalle": "75o.jpg",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Teclado Mecanico Gamer Logitech G413 Carbon, Retroiluminación Roja, Inglés", 
         "descuentoDeProducto": 0.29,
@@ -978,6 +1053,7 @@
     {
         "idDeProducto": 76,
         "imagenDelProducto": "76.jpg",
+        "imagenDelDetalle": "76o.jpg",
         "marcaDeProducto": "LOGITECH G",
         "descripcionDeProducto": "Teclado Gamer Logitech G213 RGB, Retroiluminación RGB 5 zonas, Español", 
         "descuentoDeProducto": 0.09,
@@ -991,6 +1067,7 @@
     {
         "idDeProducto": 77,
         "imagenDelProducto": "77.png",
+        "imagenDelDetalle": "77o.png",
         "marcaDeProducto": "HYPERX",
         "descripcionDeProducto": "Micrófono Profesional Gamer HyperX QuadCast S RGB, Montura Antivibraciones, Tres Condensadores", 
         "descuentoDeProducto": 0.47,
@@ -1004,6 +1081,7 @@
     {
         "idDeProducto": 78,
         "imagenDelProducto": "78.jpg",
+        "imagenDelDetalle": "78o.jpg",
         "marcaDeProducto": "BOYA",
         "descripcionDeProducto": "Micrófono Profesional Boya, IOS, Android, Mac, Windows, Triple Capsula, Streaming Profesional", 
         "descuentoDeProducto": 0.50,
@@ -1017,6 +1095,7 @@
     {
         "idDeProducto": 79,
         "imagenDelProducto": "79.jpg",
+        "imagenDelDetalle": "79o.jpg",
         "marcaDeProducto": "FIFINE",
         "descripcionDeProducto": "Micrófono de Estudio Gamer FIFINE 678, Monitoreo de baja latencia, Botón Mute para Podcasting", 
         "descuentoDeProducto": 0.29,
@@ -1030,6 +1109,7 @@
     {
         "idDeProducto": 80,
         "imagenDelProducto": "80.png",
+        "imagenDelDetalle": "80o.png",
         "marcaDeProducto": "PHILCO",
         "descripcionDeProducto": "Kit de Micrófono Studio Philco, Incluye Soporte Tipo Araña, Filtro Antipop, USB, Color azul", 
         "descuentoDeProducto": 0.29,
@@ -1043,6 +1123,7 @@
     {
         "idDeProducto": 81,
         "imagenDelProducto": "81.png",
+        "imagenDelDetalle": "81o.png",
         "marcaDeProducto": "PHILCO",
         "descripcionDeProducto": "Kit de Micrófono Studio Philco, Incluye Soporte Tipo Araña, Filtro Antipop, USB, Color rosado", 
         "descuentoDeProducto": 0.29,
@@ -1056,6 +1137,7 @@
     {
         "idDeProducto": 82,
         "imagenDelProducto": "82.jpg",
+        "imagenDelDetalle": "82o.jpg",
         "marcaDeProducto": "AVERMEDIA",
         "descripcionDeProducto": "Micrófono Avermedia USB AM310, Condensador uni-direccional (Cardioide)", 
         "descuentoDeProducto": 0.48,
@@ -1069,6 +1151,7 @@
     {
         "idDeProducto": 83,
         "imagenDelProducto": "83.jpg",
+        "imagenDelDetalle": "83o.jpg",
         "marcaDeProducto": "BLUE",
         "descripcionDeProducto": "Microfono Blue Yeti X Professional Condenser USB, Stereo, Cardioid, Omni-directional, Bi-directional", 
         "descuentoDeProducto": 0.18,
@@ -1082,6 +1165,7 @@
     {
         "idDeProducto": 84,
         "imagenDelProducto": "84.png",
+        "imagenDelDetalle": "84o.png",
         "marcaDeProducto": "FIFINE",
         "descripcionDeProducto": "Micrófono de Estudio Gamer FIFINE K670, Jack de Monitoreo de Baja Latencia, para Podcasting", 
         "descuentoDeProducto": 0.49,
@@ -1095,6 +1179,7 @@
     {
         "idDeProducto": 85,
         "imagenDelProducto": "85.jpg",
+        "imagenDelDetalle": "85o.jpg",
         "marcaDeProducto": "XTECH",
         "descripcionDeProducto": "Escritorio de 1 Nivel con Gabinete XTech, Hasta 40kg, Color Madera Beige", 
         "descuentoDeProducto": 0.15,
@@ -1108,6 +1193,7 @@
     {
         "idDeProducto": 86,
         "imagenDelProducto": "86.png",
+        "imagenDelDetalle": "86o.png",
         "marcaDeProducto": "FIDDLER",
         "descripcionDeProducto": "Escritorio Gamer Macrotel, RGB, Borde Biselado, Aluminio, Gestor De Cables", 
         "descuentoDeProducto": 0.15,
@@ -1121,6 +1207,7 @@
     {
         "idDeProducto": 87,
         "imagenDelProducto": "87.png",
+        "imagenDelDetalle": "87o.png",
         "marcaDeProducto": "FIDDLER",
         "descripcionDeProducto": "Escritorio Gamer Macrotel, Tipo Z, Gestor De Cables", 
         "descuentoDeProducto": 0.10,
@@ -1134,6 +1221,7 @@
     {
         "idDeProducto": 88,
         "imagenDelProducto": "88.png",
+        "imagenDelDetalle": "88o.png",
         "marcaDeProducto": "RESPAWN",
         "descripcionDeProducto": "Escritorio Gamer RGB Respawn GT1000 Black + Mousepad 80x30cm, Tablero Ergonómico, Ancho 114cm", 
         "descuentoDeProducto": 0.15,
@@ -1147,6 +1235,7 @@
     {
         "idDeProducto": 89,
         "imagenDelProducto": "89.jpg",
+        "imagenDelDetalle": "89o.jpg",
         "marcaDeProducto": "RESPAWN",
         "descripcionDeProducto": "Escritorio Gamer RGB Respawn, Incluye Control Luces RGB + MousePad 114", 
         "descuentoDeProducto": 0.25,
@@ -1160,6 +1249,7 @@
     {
         "idDeProducto": 90,
         "imagenDelProducto": "90.jpg",
+        "imagenDelDetalle": "90o.jpg",
         "marcaDeProducto": "VIVITAR",
         "descripcionDeProducto": "Escritorio Gamer Vivitar LvlUp Zebra King, Madera y Metal, 76 x 70 x 110 cm, Luces, Negro", 
         "descuentoDeProducto": 0.15,
@@ -1173,6 +1263,7 @@
     {
         "idDeProducto": 91,
         "imagenDelProducto": "91.jpg",
+        "imagenDelDetalle": "91o.jpg",
         "marcaDeProducto": "TORRE",
         "descripcionDeProducto": "Mesa Multipropósito Plegable Torre, 5 Posiciones, 37° Ventilado", 
         "descuentoDeProducto": 0.22,
@@ -1186,6 +1277,7 @@
     {
         "idDeProducto": 92,
         "imagenDelProducto": "92.jpg",
+        "imagenDelDetalle": "92o.jpg",
         "marcaDeProducto": "TORRE",
         "descripcionDeProducto": "Mesa Multipropósito Plegable Torre, 5 Posiciones, Reclinable 37°", 
         "descuentoDeProducto": 0.25,
