@@ -1,4 +1,5 @@
 import '../sass/navbar.scss'
+import { Link } from 'react-router-dom';
 import { CartWidget } from "./CartWidget";
 import { Searchbar } from "./Searchbar";
 import { TogglerNavbar } from "./TogglerNavbar";
@@ -14,7 +15,9 @@ export const Navbar = () => {
                         <div className="boton_navbar_y_logo_navbar_contenedor">
                             {/*ALTERNADOR DE LA BARRA DE NAVEGACIÓN*/}
                             <TogglerNavbar />
-                            <p className="logo_navbar"><span>Z</span>ero<span>L</span>ag</p>
+                            <Link to={'/'} className='nav-link'>
+                                <p className="logo_navbar"><span>Z</span>ero<span>L</span>ag</p>
+                            </Link>
                         </div>
                         {/*BARRA DE BUSQUEDA*/}
                         <Searchbar />
