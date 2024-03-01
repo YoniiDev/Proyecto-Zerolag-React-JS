@@ -1,0 +1,22 @@
+.contenedor_notfound {
+    padding: 30px;
+    min-height: calc(100vh - 207px);
+    
+    .notfound_h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 55px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        text-shadow: -2px -2px 3px red;
+        color: black;
+    }
+
+    .texto_notfound {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        color: black;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+}

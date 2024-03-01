@@ -1,10 +1,14 @@
+import { useCarritoContext } from "../context/CartContext";
+import { Link } from "react-router-dom";
 export const CartWidget = () => {
+    const { getItemQuantity } = useCarritoContext()
     return (
         <>
             <div className="contenedor_del_icono_carrito_y_del_contador_de_productos">
-                <img className="icono_carrito" id="iconoCarritoId" src="../img/carritoDeCompra.png"
-                    alt="icono_del_carrito de compra" />
-                <p className="contador_de_productos" id="contadorDeProductosId">0</p>
+                <Link to={'/cart'}>
+                    <img className="icono_carrito" src="../img/carritoDeCompra.png" alt="icono_del_carrito de compra" />
+                </Link>
+                <p className="contador_de_productos">{getItemQuantity()}</p>
             </div>
             <div className="carrito_de_productos" id="carritoDeProductosId">
                 <div className="contenedor_btn_cerrar_carrito_y_titulo_carrito_de_productos">
@@ -19,7 +23,7 @@ export const CartWidget = () => {
                         <p className="pago_con_transferencia">Pago con transferencia $<span className="valor_total_pago_con_transferencia" id="valorTotalPagoConTransferenciaId">0</span></p>
                         <p className="Otros_medios_de_pago">Otros medios de pago $<span className="valor_total_otros_medios_de_pago" id="valorTotalOtrosMediosDePagoId">0</span></p>
                     </div>
-                    <a className="btn_iniciar_pago" href="./pages/checkout.html" id="btnIniciarPagoId">Iniciar pago</a>
+                    <a className="btn_iniciar_pago" href="#" id="btnIniciarPagoId">Iniciar pago</a>
                 </div>
             </div>
         </>

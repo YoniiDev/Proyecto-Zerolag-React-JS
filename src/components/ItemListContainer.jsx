@@ -19,7 +19,7 @@ export const ItemListContainer = () => {
     }, [cid])
     return (
         <div className="contenedor_de_tarjetas_de_producto">
-            <ItemList products={products} />
+            <ItemList products={products} plantilla={"Item"}/>
         </div>
     );
 }

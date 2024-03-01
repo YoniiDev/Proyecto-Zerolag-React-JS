@@ -1,0 +1,340 @@
+//Renderizado del carrito vacio
+.contenedor_carrito_vacio{
+    padding: 30px;
+    min-height: calc(100vh - 207px);
+
+    .carrito_vacio_h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 55px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        text-shadow: -2px -2px 3px red;
+        color: black;
+
+    }
+    
+    .mensaje_carrito_vacio {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        color: black;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    
+    .contenedor_del_btn_volver_al_inicio{
+        display: flex;
+        justify-content: center;
+        .btn_volver_al_inicio {
+            background-color: red;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+            padding-left: 4px;
+            padding-right: 4px;
+            border-radius: 10px;
+            border: 2px solid rgb(75, 0, 0);
+        }
+    }
+    
+}
+
+//Renderizado del carrito lleno
+.detalle_de_la_compra {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 207px);
+    padding: 30px;
+    gap: 30px;
+
+    .contenedor_de_itemcart {
+        border: 2px solid red;
+        background-color: #0f0f0f;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 3px black;
+        height: 100%;
+
+        .itemcart {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            gap: 10px;
+            border-bottom: 2px solid red;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            .contenedor_de_imagen {
+                width: 64px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    background-color: white;
+                }
+            }
+
+            .contenedor_descripcion_y_btn_eliminar {
+                width: 60%;
+
+                .descripcion_del_producto_h2 {
+                    font-size: 14px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 100;
+                    color: white;
+
+                }
+
+                .btn_eliminar {
+                    background-color: red;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 100;
+                    font-size: 14px;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-radius: 10px;
+                    border: 2px solid rgb(75, 0, 0);
+                }
+            }
+
+            .decrement_count_increment_container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .drecrement_button {
+                    width: 25px;
+                    background-color: red;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 900;
+                    font-size: 14px;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-radius: 10px;
+                    border: 2px solid rgb(75, 0, 0);
+                    text-align: center;
+                }
+
+                .count {
+                    margin: 0 5px 0 5px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 14px;
+                    font-weight: 900;
+                    color: white;
+                }
+
+                .increment_button {
+                    width: 25px;
+                    background-color: red;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 900;
+                    font-size: 14px;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-radius: 10px;
+                    border: 2px solid rgb(75, 0, 0);
+                    text-align: center;
+                }
+            }
+
+            .informacion_de_subtotales {
+                display: grid;
+                grid-template-columns: 1fr 0.5fr;
+                align-items: center;
+
+
+                .texto_transferencia {
+                    text-align: left;
+                    margin-bottom: 0;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 100;
+                    font-size: 14px;
+                }
+
+                .subtotal_transferencia {
+                    text-align: right;
+                    margin-bottom: 0;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 100;
+                    font-size: 14px;
+                }
+
+                .texto_otros_medios_de_pago {
+                    text-align: left;
+                    margin-bottom: 0;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 100;
+                    font-size: 14px;
+                }
+
+                .subtotal_otros_medios_de_pago {
+                    text-align: right;
+                    margin-bottom: 0;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 100;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+    }
+
+    .resumen_de_la_compra {
+        height: 100%;
+        border: 2px solid red;
+        background-color: #0f0f0f;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 3px black;
+        padding: 15px;
+
+        .resumen_de_la_compra_h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            ;
+            font-size: 14px;
+            font-weight: 900;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .información_de_compra {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 10px;
+
+            .texto_cantidad_total {
+                text-align: left;
+                margin-bottom: 0;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+
+            .cantidad_total {
+                text-align: right;
+                margin-bottom: 0;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+
+            .texto_pago_con_transferencia {
+                text-align: left;
+                margin-bottom: 0;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+
+            .total_pago_con_transferencia {
+                text-align: right;
+                margin-bottom: 0;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+
+            .texto_otros_medios_de_pago {
+                text-align: left;
+                margin-bottom: 0;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+
+            .total_otros_medios_de_pago {
+                text-align: right;
+                margin-bottom: 0;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+
+            .texto_costo_de_envio {
+                text-align: left;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+
+            .costo_de_envio {
+                text-align: right;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+            }
+        }
+
+        .total_de_prueba {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+        }
+
+        .contenedor_de_botones {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+
+            .btn_vaciar_carrito {
+                background-color: red;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+                padding-left: 4px;
+                padding-right: 4px;
+                border-radius: 10px;
+                border: 2px solid rgb(75, 0, 0);
+                width: 168px;
+            }
+
+            .btn_continuar_comprando {
+                background-color: red;
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: 100;
+                font-size: 14px;
+                padding-left: 4px;
+                padding-right: 4px;
+                border-radius: 10px;
+                border: 2px solid rgb(75, 0, 0);
+                width: 168px;
+            }
+        }
+
+        .btn_finalizar_compra {
+            background-color: red;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+            padding-left: 4px;
+            padding-right: 4px;
+            border-radius: 10px;
+            border: 2px solid rgb(75, 0, 0);
+            width: 100%;
+        }
+    }
+}

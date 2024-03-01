@@ -8,7 +8,7 @@ export const Categories = () => {
                 </Link>
             </li >
             <li className="li_nosotros">
-                <button className="a_nosotros" href="#">Nosotros</button>
+                <button className="a_nosotros">Nosotros</button>
             </li>
             <li className="li_productos">
                 <Link to={'/products'}>
@@ -68,13 +68,13 @@ export const Categories = () => {
                     </ul>
             </li>
             <li className="li_servicios">
-                <button className="a_servicios" href="#">Servicios</button>
+                <button className="a_servicios">Servicios</button>
             </li>
             <li className="li_contacto">
-                <button className="a_contacto" href="#">Contacto</button>
+                <button className="a_contacto">Contacto</button>
             </li>
             <li className="li_experiencia">
-                <button className="a_experiencia" href="#">Experiencia</button>
+                <button className="a_experiencia">Experiencia</button>
             </li>
         </>
     );

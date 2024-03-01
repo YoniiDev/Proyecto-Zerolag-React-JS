@@ -27,7 +27,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="derechos_de_autor">
-                <p>&copy; 2023 | ZeroLag Todos los derechos reservados | Desarrollado con 💖 y mucho esfuerzo por YoniiDev
+                <p>&copy; 2023 | ZeroLag Todos los derechos reservados | Desarrollado con 💖 y mucho esfuerzo por YoniDev
                 </p>
             </div>
         </footer>

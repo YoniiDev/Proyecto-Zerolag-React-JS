@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { useCounter } from "../hooks/useCounter"
+import { useCarritoContext } from "../context/CartContext"
 import "../sass/itemdetail.scss"
 export const ItemDetail = ({ item }) => {
+    const { addItem } = useCarritoContext()
     const { count, increment, decrement, reset } = useCounter(1, item.stock, 1)
 
     const handleAddToCart = () => {
-        console.log(`Estoy comprando ${count} de ${item.descripcionDeProducto}`)
-        console.log("Poducto agregado al carrito")
+        addItem(item, count)
     }
     return (
         <div className="item_detail">
@@ -41,7 +42,7 @@ export const ItemDetail = ({ item }) => {
                             <button className="increment_button" onClick={increment}>+</button>
                         </div>
                         <div className="reset_and_add_to_card_button_container">
-                            <button className="reset_button" onClick={reset}>Reset</button>
+                            <button className="reset_button" onClick={reset}>Resetear</button>
                             <button className="add_to_card_button" onClick={handleAddToCart}>Agregar al Carrito</button>
                         </div>
                     </div>
