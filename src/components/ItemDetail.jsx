@@ -16,7 +16,7 @@ export const ItemDetail = ({ item }) => {
                     <button className="btn_cerrar">X</button>
                 </Link>
                 <div className="contenedor_de_imagen">
-                    <img src={`../img/${item.imagenDelDetalle}`} alt={`Imagen de ${item.descripcionDeProducto}`} />
+                    <img src={`${item.imagenDelDetalle}`} alt={`Imagen de ${item.descripcionDeProducto}`} />
                 </div>
                 <div className="información_del_producto">
                     <p className="descripción_del_producto">{item.descripcionDeProducto}</p>

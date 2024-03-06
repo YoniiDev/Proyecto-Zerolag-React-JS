@@ -1,19 +1,15 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ItemDetail } from "./ItemDetail";
+import { getProduct } from "../firebase/firebase";
 export const ItemDetailsContainer = () => {
     const [item, setItem] = useState([])
     const { pid } = useParams()
 
     useEffect(() => {
-        fetch('../data/productos.json')
-            .then(response => response.json())
-            .then(products => {
-                const productFound = products.find(product => product.idDeProducto == pid)
-                if (productFound) {
-                    setItem(productFound)
-                }
-            })
+       getProduct(pid)
+       .then(prod => setItem(prod))
+       .catch(error => console.log(error))
     }, [])
     return (
         <>

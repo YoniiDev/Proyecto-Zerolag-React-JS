@@ -2,10 +2,8 @@ import '../sass/cart.scss'
 import { Link } from "react-router-dom";
 import { useCarritoContext } from "../context/CartContext";
 import { ItemList } from "./ItemList";
-import { useCounter } from '../hooks/useCounter';
 export const Cart = () => {
-    const { carrito, totalPrice, emptyCart } = useCarritoContext();
-    const { count } = useCounter();
+    const { carrito, totalTransferPrice, totalPriceOtherPaymentMethods, emptyCart, getItemQuantity } = useCarritoContext();
 
     return (
         <>
@@ -34,24 +32,27 @@ export const Cart = () => {
                                 <h1 className='resumen_de_la_compra_h1'>Resumen de la Compra</h1>
                                 <div className='información_de_compra'>
                                     <p className='texto_cantidad_total'>Cantidad total</p>
-                                    <p className='cantidad_total'>{count}</p>
+                                    <p className='cantidad_total'>{getItemQuantity()}</p>
                                     <p className='texto_pago_con_transferencia'>Pago con transferencia:</p>
-                                    <p className='total_pago_con_transferencia'>$00000</p>
+                                    <p className='total_pago_con_transferencia'>${totalTransferPrice() + 10000}</p>
                                     <p className='texto_otros_medios_de_pago'>Otros medios de pago:</p>
-                                    <p className='total_otros_medios_de_pago'>$00000</p>
-                                    <p className='texto_costo_de_envio'>Costo de envio</p>
-                                    <p className='costo_de_envio'>$8990</p>
+                                    <p className='total_otros_medios_de_pago'>${totalPriceOtherPaymentMethods() + 10000}</p>
                                 </div>
-                                <p className='total_de_prueba'>Resumen de la compra: ${totalPrice()}</p>
+                                <div className='informacion_de_envio'>
+                                    <p className='texto_costo_de_envio'>El costo de envío a todo Chile es de $10.000.</p>
+                                    <p className='aviso_costo_de_envio'>El total en el resumen de compra incluye el costo de envío.</p>
+                                </div>
                                 <div className='contenedor_de_botones'>
                                     <button className='btn_vaciar_carrito' onClick={emptyCart}>Vaciar Carrito</button>
                                     <Link to={'/'}>
                                         <button className='btn_continuar_comprando'>Continuar Comprando</button>
                                     </Link>
                                 </div>
-                                <Link to={'/checkout'}>
-                                    <button className='btn_finalizar_compra'>Finalizar compra</button>
-                                </Link>
+                                <div className='contenedor_btn_finalizar_compra'>
+                                    <Link to={'/checkout'}>
+                                        <button className='btn_finalizar_compra'>Finalizar compra</button>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </>

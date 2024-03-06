@@ -5,7 +5,7 @@ export const Item = ({ product }) => {
         <div className="tarjeta_de_producto">
             <Link to={`/product/${product.idDeProducto}`}>
                 <div className='contenedor_de_imagen'>
-                    <img className="imagen_del_producto" src={`../img/${product.imagenDelProducto}`} alt={`Imagen de ${product.descripcionDeProducto}`} />
+                    <img className="imagen_del_producto" src={`${product.imagenDelProducto}`} alt={`Imagen de ${product.descripcionDeProducto}`} />
                 </div>
             </Link>
             <div className='información_del_producto'>

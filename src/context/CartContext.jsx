@@ -39,18 +39,30 @@ export const CarritoProvider = (props) => {
         setCarrito([])
     }
 
+    const updateItem = (id, newQuantity) => {
+        const indice = carrito.findIndex(prod => prod.idDeProducto === id)
+        const aux = carrito
+        aux[indice].quantity = newQuantity
+        setCarrito([...aux])
+    }
+
     //Obtener cantidad de productos
     const getItemQuantity = () => {
         return carrito.reduce((acum, prod) => acum += prod.quantity, 0)
     }
 
-    //Obtener precio total del carrito
-    const totalPrice = () => {
+    //Obtener precio total con transferencia del carrito
+    const totalTransferPrice = () => {
         return carrito.reduce((acum, prod) => acum += (prod.quantity * prod.precioTransferenciaDeProducto), 0)
     }
 
+    //Obtener precio total con otros medios de pago del carrito
+    const totalPriceOtherPaymentMethods = () => {
+        return carrito.reduce((acum, prod) => acum += (prod.quantity * prod.precioOtrosMediosDePagoDeProducto), 0)
+    }
+
     return (
-        <CarritoContext.Provider value={{carrito, addItem, removeItem, emptyCart, getItemQuantity, totalPrice }}>
+        <CarritoContext.Provider value={{carrito, addItem, removeItem, updateItem, emptyCart, getItemQuantity, totalTransferPrice, totalPriceOtherPaymentMethods }}>
             {props.children}
         </CarritoContext.Provider>
     )
