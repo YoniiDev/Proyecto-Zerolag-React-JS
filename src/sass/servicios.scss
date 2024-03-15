@@ -1,0 +1,77 @@
+.servicios {
+    padding: 30px;
+    min-height: calc(100vh - 199px);
+
+    .titulo_servicios_h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 55px;
+        font-weight: 900;
+        margin: 0;
+        text-shadow: -2px -2px 3px red;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .servicios_contenedor {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .tarjeta_de_servicio {
+            width: 500px;
+            height: 620px;
+            border: 2px solid red;
+            box-shadow: 0px 0px 5px 3px black;
+            text-align: center;
+            background-color: #0f0f0f;
+            border-radius: 10px;
+
+            .imagen_del_servicio {
+                width: 496px;
+                height: 350px;
+                object-fit: cover;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+            }
+
+            .informacion_del_servicio {
+                padding: 15px;
+
+                .titulo_del_servicio_h2 {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 20px;
+                    text-align: center;
+                    margin: 0;
+                    color: white;
+                    font-weight: 100;
+                    line-height: normal;
+                    margin-bottom: 15px;
+                }
+
+                .texto_del_servicio {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: white;
+                    font-weight: 100;
+                    text-align: justify;
+                    font-size: 14px;
+                    margin: 0;
+                    line-height: normal;
+                    margin-bottom: 15px;
+                }
+
+                .btn_contactanos {
+                    background-color: red;
+                    color: white;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: 100;
+                    font-size: 14px;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-radius: 10px;
+                    border: 2px solid rgb(75, 0, 0);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

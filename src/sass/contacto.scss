@@ -1,0 +1,231 @@
+.formulario_e_informacion_de_contacto {
+    padding: 30px;
+    min-height: calc(100vh - 199px);
+
+    .formulario_de_contacto {
+        margin-bottom: 30px;
+        .titulo_formulario_de_contacto_h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 55px;
+            font-weight: 900;
+            margin: 0;
+            text-shadow: -2px -2px 3px red;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .formulario_contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .formulario {
+                box-shadow: 0px 0px 5px 3px black;
+                border: 2px solid red;
+                width: 70%;
+                background-color: #0f0f0f;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                margin: 0;
+                border-radius: 10px;
+
+                .nombre {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    input {
+                        border: 2px solid red;
+                        margin: 5px 20px 5px 20px;
+                        width: 40%;
+                    }
+                }
+
+                .apellido {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    input {
+                        border: 2px solid red;
+                        margin: 5px 20px 5px 20px;
+                        width: 40%;
+                    }
+                }
+
+                .correo {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    input {
+                        border: 2px solid red;
+                        margin: 5px 20px 5px 20px;
+                        width: 40%;
+                    }
+                }
+
+                .contraseña {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    input {
+                        border: 2px solid red;
+                        margin: 5px 20px 5px 20px;
+                        width: 40%;
+                    }
+                }
+
+                .genero {
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    div {
+                        label {}
+
+                        input {
+                            margin: 5px 0px 5px 0px;
+                        }
+                    }
+                }
+
+                .pais {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    select {
+                        border: 2px solid red;
+                        margin: 5px 20px 5px 20px;
+                        width: 40%;
+
+                        option {}
+                    }
+                }
+
+                .motivo {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    select {
+                        border: 2px solid red;
+                        margin: 5px 20px 5px 20px;
+                        width: 40%;
+
+                        option {}
+                    }
+                }
+
+                .mensaje {
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        margin: 5px 20px 5px 20px;
+                        color: white;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    textarea {
+                        margin: 5px 20px 5px 20px;
+                        border: 2px solid red;
+                    }
+                }
+
+                .enviar_restablecer {
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 10px;
+                    align-items: end;
+
+                    input {
+                        border: 2px solid rgb(75, 0, 0);
+                        border-radius: 10px;
+                        padding: 5px 5px 5px 5px;
+                        background-color: red;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: 900;
+                        font-size: 14px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .informacion_de_contacto {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+
+        iframe {
+            box-shadow: 0px 0px 5px 2px black;
+            border-radius: 10px;
+        }
+
+        .contacto_contenedor {
+            .titulo_contacto_h2 {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 30px;
+                font-weight: 900;
+                margin-bottom: 5px;
+                color: black;
+            }
+
+            .medios_de_contacto {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                color: black;
+            }
+
+            .titulo_horario_de_atencion_h2 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                color: black;
+            }
+
+            .informacion_de_horario_de_atencion {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                color: black;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,10 +1,8 @@
 .item_detail {
-    padding: 30px 0 30px 0;
+    padding: 30px;
     min-height: calc(100vh - 199px);
 
     .detalle_del_producto {
-        width: 90%;
-        height: 500px;
         display: flex;
         justify-content: space-around;
         border: 2px solid red;
@@ -32,6 +30,7 @@
 
         .contenedor_de_imagen {
             width: 50%;
+            height: 400px;
             text-align: center;
             margin-right: 20px;
             img {
@@ -187,8 +186,8 @@
                     .increment_button {
                         width: 30px;
                         color: white;
-                        background-color: black;
-                        border: solid 2px red;
+                        background-color: red;
+                        border: 2px solid rgb(75, 0, 0);
                         border-radius: 5px;
                         font-family: Verdana, Geneva, Tahoma, sans-serif;
                         font-size: 16px;
@@ -202,19 +201,19 @@
 
                     .reset_button {
                         color: white;
-                        background-color: black;
-                        border: solid 2px red;
+                        background-color: red;
+                        border: 2px solid rgb(75, 0, 0);
                         border-radius: 5px;
                         font-family: Verdana, Geneva, Tahoma, sans-serif;
                         font-size: 16px;
                         font-weight: 500;
-                        width: 4em;
+                        width: 5em;
                     }
 
                     .add_to_card_button {
                         color: white;
-                        background-color: black;
-                        border: solid 2px red;
+                        background-color: red;
+                        border: 2px solid rgb(75, 0, 0);
                         border-radius: 5px;
                         font-family: Verdana, Geneva, Tahoma, sans-serif;
                         font-size: 16px;

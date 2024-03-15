@@ -74,10 +74,10 @@ header {
             transition-duration: 0.5s;
 
             &:hover {
-              border: 2px solid rgb(7, 80, 0);
-              background-color: rgb(0, 194, 0);
+              background-color: red;
+                border: 2px solid rgb(61, 0, 0);
               font-family: Verdana, Geneva, Tahoma, sans-serif;
-              color: black;
+              color: white;
               font-size: 16px;
               font-weight: 600;
             }
@@ -324,11 +324,11 @@ header {
 
               &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: black;
+                color: white;
                 font-size: 16px;
                 font-weight: 600;
-                background-color: rgb(0, 194, 0);
-                border: 2px solid rgb(7, 80, 0);
+                background-color: red;
+                border: 2px solid rgb(61, 0, 0);
               }
             }
           }
@@ -349,11 +349,11 @@ header {
 
               &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: black;
+                color: white;
                 font-size: 16px;
                 font-weight: 600;
-                background-color: rgb(0, 194, 0);
-                border: 2px solid rgb(7, 80, 0);
+                background-color: red;
+                border: 2px solid rgb(61, 0, 0);
               }
             }
           }
@@ -361,9 +361,10 @@ header {
           .li_productos {
             position: relative;
 
-            &:hover ul{
+            &:hover ul {
               display: block;
             }
+
             .button_productos {
               text-decoration: none;
               font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -379,11 +380,11 @@ header {
 
               &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: black;
+                color: white;
                 font-size: 16px;
                 font-weight: 600;
-                background-color: rgb(0, 194, 0);
-                border: 2px solid rgb(7, 80, 0);
+                background-color: red;
+                border: 2px solid rgb(61, 0, 0);
               }
             }
 
@@ -392,10 +393,12 @@ header {
               position: absolute;
               top: 100%;
               width: 100%;
+              z-index: 1;
 
-              &:hover{
+              &:hover {
                 display: block;
               }
+
               li {
                 button {
                   width: 100%;
@@ -411,10 +414,10 @@ header {
 
                   &:hover {
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    color: black;
+                    color: white;
                     font-size: 16px;
-                    background-color: rgb(0, 194, 0);
-                    border: 2px solid rgb(7, 80, 0);
+                    background-color: red;
+                    border: 2px solid rgb(61, 0, 0);
                   }
                 }
               }
@@ -437,11 +440,11 @@ header {
 
               &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: black;
+                color: white;
                 font-size: 16px;
                 font-weight: 600;
-                background-color: rgb(0, 194, 0);
-                border: 2px solid rgb(7, 80, 0);
+                background-color: red;
+                border: 2px solid rgb(61, 0, 0);
               }
             }
           }
@@ -462,11 +465,11 @@ header {
 
               &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: black;
+                color: white;
                 font-size: 16px;
                 font-weight: 600;
-                background-color: rgb(0, 194, 0);
-                border: 2px solid rgb(7, 80, 0);
+                background-color: red;
+                border: 2px solid rgb(61, 0, 0);
               }
             }
           }
@@ -487,11 +490,11 @@ header {
 
               &:hover {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: black;
+                color: white;
                 font-size: 16px;
                 font-weight: 600;
-                background-color: rgb(0, 194, 0);
-                border: 2px solid rgb(7, 80, 0);
+                background-color: red;
+                border: 2px solid rgb(61, 0, 0);
               }
             }
           }

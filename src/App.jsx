@@ -1,3 +1,4 @@
+import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { ItemListContainer } from './components/ItemListContainer';
@@ -7,11 +8,17 @@ import { Checkout } from './components/Checkout';
 import { ItemDetailsContainer } from './components/ItemDetailsContainer';
 import { NotFound } from './components/NotFound';
 import { CarritoProvider } from './context/CartContext';
+import { ToastContainer } from 'react-toastify';
+import { Nosotros } from './components/nosotros';
+import { Servicios } from './components/Servicios';
+import { Contacto } from './components/Contacto';
+import { Experiencia } from './components/Experiencia';
 export const App = () => {
   return (
     <BrowserRouter>
       <CarritoProvider>
         <Navbar />
+        <ToastContainer />
         <Routes>
           <Route path='/' element={<ItemListContainer />} />
           <Route path='/products' element={<ItemListContainer />} />
@@ -20,6 +27,10 @@ export const App = () => {
           <Route path='/cart' element={<Cart />} />
           <Route path='/checkout' element={<Checkout />} />
           <Route path='*' element={<NotFound />} />
+          <Route path='/nosotros' element={<Nosotros />}/>
+          <Route path='/servicios' element={<Servicios/>}/>
+          <Route path='/contacto' element={<Contacto/>}/>
+          <Route path='/experiencia' element={<Experiencia/>}/>
         </Routes>
         <Footer />
       </CarritoProvider>

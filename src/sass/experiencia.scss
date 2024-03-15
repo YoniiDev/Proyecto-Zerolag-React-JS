@@ -1,0 +1,73 @@
+main {
+    padding: 30px;
+    min-height: calc(100vh - 199px);
+
+    .experiencia_zerolag {
+        margin-bottom: 30px;
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 55px;
+            font-weight: 900;
+            color: black;
+            text-shadow: -2px -2px 3px red;
+        }
+
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: black;
+            text-align: justify;
+        }
+
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            font-weight: 900;
+            color: black;
+            text-shadow: -2px -2px 3px red;
+        }
+    }
+
+    .grid-galeria-experiencia {
+        width: 100%;
+        padding: 10px 20px 20px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 250px;
+        gap: 30px;
+
+        .grid-item-experiencia {
+            position: relative;
+            border: 2px solid red;
+            border-radius: 10px;
+            box-shadow: -2px -2px 20px 5px rgba(0, 0, 0, 0.93);
+            -webkit-box-shadow: -2px -2px 20px 5px rgba(0, 0, 0, 0.93);
+            -moz-box-shadow: -2px -2px 20px 5px rgba(0, 0, 0, 0.93);
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            p {
+                position: absolute;
+                bottom: 0;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.658);
+                width: 100%;
+                padding: 5px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 13px;
+                font-weight: 100;
+                font-style: italic;
+                text-align: justify;
+                border-bottom-left-radius: 7px;
+                border-bottom-right-radius: 7px;
+                margin: 0;
+                line-height: normal;
+            }
+        }
+    }
+}

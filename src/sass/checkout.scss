@@ -1,3 +1,30 @@
+.empty_checkout {
+    padding: 30px;
+    min-height: calc(100vh - 199px);
+    text-align: center;
+
+    .mensaje_agregar_productos_h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        color: black;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .btn_volver_al_inicio {
+        background-color: red;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 10px;
+        border: 2px solid rgb(75, 0, 0);
+    }
+}
+
 .checkout {
     padding: 20px;
     min-height: calc(100vh - 199px);

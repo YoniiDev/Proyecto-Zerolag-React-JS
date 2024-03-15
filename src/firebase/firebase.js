@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, doc, addDoc, getDocs, getDoc, updateDoc, deleteDoc } from 'firebase/firestore'
 const firebaseConfig = {
-    apiKey: "",
+    apiKey: "AIzaSyB0KzX4eAYFJ28Z6Tt_63bZRGtq7fW49_I",
     authDomain: "react-2024-f0e3d.firebaseapp.com",
     projectId: "react-2024-f0e3d",
     storageBucket: "react-2024-f0e3d.appspot.com",
@@ -1262,16 +1262,34 @@ export const deleteProduct = async (id) => {
 }
 
 //plantilla para actualizar producto en la bdd
-// updateProduct("zjYmcWUXTNC4RY7FtGs7", {
+// updateProduct("054tYBYD68yyUPyTwGyn", {
 //     categoriaOfertasImperdibles: false,
-//     category: "Notebook Gamer",
-//     descripcionDeProducto: "Notebook Asus ROG Zephyrus M16, i7-11800H, Ram 16GB, SSD 512GB, LED 16 pulgadas QHD, RTX 3050Ti, W10 Home",
-//     descuentoDeProducto: 0.04,
-//     imagenDelDetalle: "https://firebasestorage.googleapis.com/v0/b/react-2024-f0e3d.appspot.com/o/68o.jpg?alt=media&token=5c7ba959-bc48-4d20-a7c0-f59d87d909cc",
-//     imagenDelProducto: "https://firebasestorage.googleapis.com/v0/b/react-2024-f0e3d.appspot.com/o/68.jpg?alt=media&token=979e3eb3-ccca-4c7d-b9fd-99f279552a3d",
-//     precioNormalDeProducto: 2087930,
-//     precioOtrosMediosDePagoDeProducto: 2090459,
-//     precioTransferenciaDeProducto: 2000440,
+//     category: "Escritorio Gamer",
+//     descripcionDeProducto: "Escritorio Gamer RGB Respawn, Incluye Control Luces RGB + MousePad 114",
+//     descuentoDeProducto: 0.25,
+//     imagenDelDetalle: "https://firebasestorage.googleapis.com/v0/b/react-2024-f0e3d.appspot.com/o/89o.jpg?alt=media&token=3c469aeb-b65c-4d1b-b439-c5902b837216",
+//     imagenDelProducto: "https://firebasestorage.googleapis.com/v0/b/react-2024-f0e3d.appspot.com/o/89.jpg?alt=media&token=a547e65e-fc0a-41d0-9ba4-cd3868e91482",
+//     precioNormalDeProducto: 118280,
+//     precioOtrosMediosDePagoDeProducto: 92774,
+//     precioTransferenciaDeProducto: 88780,
 //     stock: 100,
 // }).then(rta => console.log(rta))
 
+//CREATE AND READ ORDENES DE COMPRA
+export const createOrdenCompra = async (cliente, precioTotalTransferencia, precioTotalOtrosMediosDePago, carrito, fecha) => {
+    const OrdenCompra = await addDoc(collection(bdd, "ordenesCompra"), {
+        cliente: cliente,
+        items: carrito,
+        precioTotalTransferencia: precioTotalTransferencia,
+        precioTotalOtrosMediosDePago: precioTotalOtrosMediosDePago,
+        fecha: fecha
+    })
+
+    return OrdenCompra
+}
+
+export const getOrdenCompra = async (id) => {
+    const ordenCompra = await getDoc(doc(bdd, "ordenesCompra", id))
+    const item = { ...ordenCompra.data(), id: ordenCompra.id }
+    return item 
+}
