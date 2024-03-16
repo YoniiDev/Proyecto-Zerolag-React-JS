@@ -26,7 +26,7 @@ export const Cart = () => {
                     <>
                         <div className='detalle_de_la_compra'>
                             <div className="contenedor_de_itemcart">
-                                {<ItemList products={carrito} plantilla={"ItemCart"} />} 
+                                {<ItemList products={carrito} plantilla={"ItemCart"} />}  
                             </div>
                             <div className='resumen_de_la_compra'>
                                 <h1 className='resumen_de_la_compra_h1'>Resumen de la Compra</h1>

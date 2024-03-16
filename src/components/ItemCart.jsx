@@ -7,7 +7,7 @@ export const ItemCart = ({ product }) => {
     return (
 
         <div className="itemcart"> 
-            <div className="contenedor_de_imagen">
+            <div className="contenedor_de_imagen"> 
                 <img src={`${product.imagenDelProducto}`} alt={`Imagen de ${product.descripcionDeProducto}`} />
             </div>
             <div className="contenedor_descripcion_y_btn_eliminar">
