@@ -13,6 +13,7 @@ import { Nosotros } from './components/nosotros';
 import { Servicios } from './components/Servicios';
 import { Contacto } from './components/Contacto';
 import { Experiencia } from './components/Experiencia';
+import { Inicio } from './components/Inicio';
 export const App = () => {
   return (
     <BrowserRouter>
@@ -20,7 +21,7 @@ export const App = () => {
         <Navbar />
         <ToastContainer />
         <Routes>
-          <Route path='/' element={<ItemListContainer />} />
+          <Route path='/' element={<Inicio />} />
           <Route path='/products' element={<ItemListContainer />} />
           <Route path='/category/:cid' element={<ItemListContainer />} />
           <Route path='/product/:pid' element={<ItemDetailsContainer />} />

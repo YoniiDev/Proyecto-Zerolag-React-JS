@@ -116,20 +116,6 @@ export const Checkout = () => {
                                             <input type="text" placeholder="00.000.000-0" name="rutDelCliente" required="" />
                                         </div>
                                     </div>
-                                    <div className="contenedor_de_region_y_comuna">
-                                        <div className="region">
-                                            <label>Región</label>
-                                            <select name="region" required="">
-                                                {/* AQUI SE MUESTRAN LAS REGIONES DINAMICAMENTE*/}
-                                            </select>
-                                        </div>
-                                        <div className="comuna">
-                                            <label>Comuna</label>
-                                            <select name="comuna" required="">
-                                                {/* AQUI SE MUESTRAN LAS COMUNAS DINAMICAMENTE*/}
-                                            </select>
-                                        </div>
-                                    </div>
                                     <div className="contenedor_de_direccion_y_numero">
                                         <div className="direccion">
                                             <label>Dirección</label>

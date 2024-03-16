@@ -1,0 +1,8 @@
+.contenedor_de_tarjetas_de_producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: calc(100vh - 199px);
+}

@@ -1,3 +1,4 @@
+import '../sass/itemlistcontainer.scss'
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { ItemList } from "./ItemList";

@@ -1,0 +1,27 @@
+@import "./bases/variables.scss";
+
+main {
+    min-height: calc(100vh - 199px);
+    padding: 0;
+
+    .ofertas_imperdibles {
+        .titulo_h2_ofertas_imperdibles {
+            text-align: center;
+            background-color: $color-cuarto;
+            color: $color-tercero;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            font-weight: 600;
+            border: solid 2px $color-secundario;
+            margin: 0;
+        }
+
+        .productos_ofertas_imperdibles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+}
