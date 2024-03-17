@@ -9,7 +9,7 @@ import { ItemDetailsContainer } from './components/ItemDetailsContainer';
 import { NotFound } from './components/NotFound';
 import { CarritoProvider } from './context/CartContext';
 import { ToastContainer } from 'react-toastify';
-import { Nosotros } from './components/nosotros';
+import { Nosotros } from './components/Nosotros';
 import { Servicios } from './components/Servicios';
 import { Contacto } from './components/Contacto';
 import { Experiencia } from './components/Experiencia';
